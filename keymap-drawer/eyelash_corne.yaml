@@ -14,19 +14,19 @@ layers:
   - {t: '''', s: '"'}
   - {t: '`', s: '~'}
   - $$mdi:keyboard-tab$$
-  - A
-  - R
-  - S
-  - T
+  - {t: A, h: LEFT WIN}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - M
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: RIGHT WIN}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - Z
