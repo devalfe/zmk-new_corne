@@ -300,7 +300,7 @@ layers:
   - W
   - F
   - {t: '1', s: '!'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - KP NUMLOCK
   - KP 7
   - KP 8
@@ -313,10 +313,10 @@ layers:
   - S
   - D
   - {t: '2', s: '@'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
   - KP 4
   - KP 5
   - KP 6
@@ -329,8 +329,8 @@ layers:
   - F4
   - {t: '3', s: '#'}
   - {t: COLEDH, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-right-click-outline$$
   - KP 1
   - KP 2
   - KP 3
@@ -339,9 +339,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: COLEDH, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - KP 0
 combos:
 - p: [5, 7]
   k: {t: BLTRGB, h: toggle}
