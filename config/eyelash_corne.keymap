@@ -41,17 +41,17 @@
             flavor = "tap-preferred";
         };
 
-        mmv {
+        &mmv {
             acceleration-exponent = <2>;      // 1
             time-to-max-speed-ms = <40>;    // 40
             delay-ms = <0>;                   // 0
          };
       
-        mmv_input_listener {
+        &mmv_input_listener {
             input-processors = <&zip_xy_scaler 2 1>;
         };
         
-        msc_input_listener {
+        &msc_input_listener {
             input-processors = <&zip_xy_scaler 2 1>;
         };
     };
