@@ -163,10 +163,10 @@
         layer_3 {
             display-name = "NAV";
             bindings = <
-&to 0      &kp F1          &kp F2          &mmv MOVE_UP    &kp F4           &kp F5                                  &mmv MOVE_UP                     &kp LC(Y)      &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
-&kp LC(A)  &kp F3          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(LS(D))  &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
-&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAUSE_BREAK
-                                           &trans          &trans           &trans                                                                   &mkp LCLK      &mkp RCLK  &mkp MCLK
+&to 0      &kp F1          &kp F2          &mmv MOVE_UP    &kp F4              &kp F5                                  &mmv MOVE_UP                     &kp LC(Y)      &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
+&kp LC(A)  &kp F3          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(LS(D))  &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
+&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAUSE_BREAK
+                                           &trans          &kp K_CONTEXT_MENU  &trans                                                                   &mkp LCLK      &mkp RCLK  &mkp MCLK
             >;
 
             sensor-bindings = <&scroll_encoder>;
