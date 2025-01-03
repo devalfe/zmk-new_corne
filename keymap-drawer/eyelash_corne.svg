@@ -572,36 +572,36 @@ rect.held, rect.combo.held {
 </a><text x="490" y="52" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M196,32 l-37,1" class="combo"/>
-<path d="M196,32 l37,1" class="combo"/>
-<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<path d="M784,32 l-37,1" class="combo"/>
+<path d="M784,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="770" y="19" width="28" height="26" class="combo"/>
 <a href="#MINECR">
-<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
-</a><text x="196" y="43" class="combo hold">toggle</text>
+<text x="784" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="784" y="43" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
-<path d="M269,122 l13,69" class="combo"/>
-<path d="M269,122 l-13,-69" class="combo"/>
-<rect rx="6" ry="6" x="255" y="109" width="28" height="26" class="combo"/>
+<path d="M241,147 l34,47" class="combo"/>
+<path d="M241,147 l-34,-47" class="combo"/>
+<rect rx="6" ry="6" x="227" y="134" width="28" height="26" class="combo"/>
 <a href="#NUMBER">
-<text x="269" y="122" class="combo tap layer-activator">NUMBER</text>
-</a><text x="269" y="133" class="combo hold">toggle</text>
+<text x="241" y="147" class="combo tap layer-activator">NUMBER</text>
+</a><text x="241" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
-<path d="M711,122 l13,-69" class="combo"/>
-<path d="M711,122 l-13,69" class="combo"/>
-<rect rx="6" ry="6" x="697" y="109" width="28" height="26" class="combo"/>
+<path d="M739,147 l-34,47" class="combo"/>
+<path d="M739,147 l34,-47" class="combo"/>
+<rect rx="6" ry="6" x="725" y="134" width="28" height="26" class="combo"/>
 <a href="#SYMBOL">
-<text x="711" y="122" class="combo tap layer-activator">SYMBOL</text>
-</a><text x="711" y="133" class="combo hold">toggle</text>
+<text x="739" y="147" class="combo tap layer-activator">SYMBOL</text>
+</a><text x="739" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M300,130 l40,79" class="combo"/>
-<path d="M300,130 l-40,-79" class="combo"/>
-<rect rx="6" ry="6" x="286" y="117" width="28" height="26" class="combo"/>
+<path d="M272,155 l62,58" class="combo"/>
+<path d="M272,155 l-62,-58" class="combo"/>
+<rect rx="6" ry="6" x="258" y="142" width="28" height="26" class="combo"/>
 <a href="#NAV">
-<text x="300" y="130" class="combo tap layer-activator">NAV</text>
-</a><text x="300" y="141" class="combo hold">toggle</text>
+<text x="272" y="155" class="combo tap layer-activator">NAV</text>
+</a><text x="272" y="166" class="combo hold">toggle</text>
 </g>
 <g class="combo backspace combopos-5">
 <rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo backspace"/>
@@ -614,6 +614,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
+<text x="700" y="94" class="combo tap">
+<tspan x="700" dy="-0.6em" style="font-size: 60%">AL</tspan><tspan x="700" dy="1.2em" style="font-size: 60%">CALCULATOR</tspan>
+</text>
 </g>
 </g>
 </g>
