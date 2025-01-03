@@ -96,6 +96,39 @@
             key-positions = <44 4>;
             layers = <0>;
         };
+
+        cmb_back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <37 38>;
+        };
+
+        cmb_del {
+            bindings = <&kp DEL>;
+            key-positions = <38 39>;
+        };
+
+        numplus {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <23 24>;
+            layers = <6>;
+        };
+
+        numminus {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <24 25>;
+            layers = <6>;
+        };
+
+        nummulti {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <9 24>;
+            layers = <6>;
+        };
+
+        numdiv {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <24 38>;
+        };
     };
 
     macros {
@@ -195,7 +228,7 @@
             bindings = <
 &trans     &trans  &kp E   &kp W   &kp F      &kp N1                              &mmv MOVE_UP                     &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_N8  &kp KP_N9  &trans      &trans
 &trans     &kp L   &kp A   &kp S   &kp D      &kp N2              &mmv MOVE_LEFT  &trans          &mmv MOVE_RIGHT  &mkp LCLK       &kp KP_N4        &kp KP_N5  &kp KP_N6  &middledot  &trans
-&kp LCTRL  &kp F1  &kp F2  &kp F3  &kp F4     &kp N3     &to 0                    &mmv MOVE_DOWN                   &mkp RCLK       &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_DOT  &trans
+&kp LCTRL  &kp F1  &kp F2  &kp F3  &kp F4     &kp N3     &to 0                    &mmv MOVE_DOWN                   &mkp RCLK       &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_DOT  &kp KP_ENTER
                            &trans  &kp LSHFT  &kp SPACE                                                            &mkp LCLK       &mkp RCLK        &kp KP_N0
             >;
 
