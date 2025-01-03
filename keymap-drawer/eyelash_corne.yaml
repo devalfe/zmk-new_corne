@@ -364,12 +364,16 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [23, 24]
   k: KP PLUS
-  l: [MINECR]
+  l: [MINECR, NUMBER]
 - p: [24, 25]
   k: KP MINUS
-  l: [MINECR]
+  l: [MINECR, NUMBER]
 - p: [9, 24]
   k: KP MULTIPLY
-  l: [MINECR]
+  l: [MINECR, NUMBER]
 - p: [24, 38]
   k: KP DIVIDE
+  l: [MINECR, NUMBER]
+- p: [31, 32]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [COLEDH]
