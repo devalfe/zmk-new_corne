@@ -131,13 +131,13 @@
 
         nummulti {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <9 24>;
+            key-positions = <9 8>;
             layers = <6 1>;
         };
 
         numdiv {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <24 38>;
+            key-positions = <9 10>;
             layers = <6 1>;
         };
 
