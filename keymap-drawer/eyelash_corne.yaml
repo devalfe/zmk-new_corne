@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: SYMBOL, h: SYMBOL}
   - {t: '$$mdi:apple-keyboard-shift$$', h: NUMBER}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: BLTRGB}
+  - {t: NUMBER, h: BLTRGB}
   NUMBER:
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   SYMBOL:
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
