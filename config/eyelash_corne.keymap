@@ -75,25 +75,25 @@
 
         ToMNCR {
             bindings = <&tog 6>;
-            key-positions = <2 3 4>;
+            key-positions = <8 9 10>;
             layers = <0>;
         };
 
         ToNum {
             bindings = <&to 1>;
-            key-positions = <43 4>;
+            key-positions = <43 16>;
             layers = <0>;
         };
 
         ToSymbol {
             bindings = <&to 2>;
-            key-positions = <8 46>;
+            key-positions = <46 24>;
             layers = <0>;
         };
 
         ToNav {
             bindings = <&to 3>;
-            key-positions = <44 4>;
+            key-positions = <44 16>;
             layers = <0>;
         };
 
@@ -134,6 +134,12 @@
         cmb_caps {
             bindings = <&kp CAPS>;
             key-positions = <31 32>;
+            layers = <0>;
+        };
+
+        cmb_calc {
+            bindings = <&kp C_AL_CALCULATOR>;
+            key-positions = <22 23>;
             layers = <0>;
         };
     };
