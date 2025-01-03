@@ -573,28 +573,26 @@ rect.held, rect.combo.held {
 </a><text x="490" y="52" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
-<path d="M784,32 l-37,1" class="combo"/>
-<path d="M784,32 l37,1" class="combo"/>
-<rect rx="6" ry="6" x="770" y="19" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
 <a href="#MINECR">
-<text x="784" y="32" class="combo tap layer-activator">MINECR</text>
-</a><text x="784" y="43" class="combo hold">toggle</text>
+<text x="700" y="94" class="combo tap layer-activator">MINECR</text>
+</a><text x="700" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
-<path d="M241,147 l34,47" class="combo"/>
-<path d="M241,147 l-34,-47" class="combo"/>
-<rect rx="6" ry="6" x="227" y="134" width="28" height="26" class="combo"/>
-<a href="#NUMBER">
-<text x="241" y="147" class="combo tap layer-activator">NUMBER</text>
-</a><text x="241" y="158" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-3">
 <path d="M739,147 l-34,47" class="combo"/>
 <path d="M739,147 l34,-47" class="combo"/>
 <rect rx="6" ry="6" x="725" y="134" width="28" height="26" class="combo"/>
-<a href="#SYMBOL">
-<text x="739" y="147" class="combo tap layer-activator">SYMBOL</text>
+<a href="#NUMBER">
+<text x="739" y="147" class="combo tap layer-activator">NUMBER</text>
 </a><text x="739" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M708,154 l62,-58" class="combo"/>
+<path d="M708,154 l-62,58" class="combo"/>
+<rect rx="6" ry="6" x="694" y="141" width="28" height="26" class="combo"/>
+<a href="#SYMBOL">
+<text x="708" y="154" class="combo tap layer-activator">SYMBOL</text>
+</a><text x="708" y="165" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
 <path d="M272,155 l62,58" class="combo"/>
@@ -615,12 +613,6 @@ rect.held, rect.combo.held {
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="215" y="134" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="686" y="81" width="28" height="26" class="combo"/>
-<text x="700" y="94" class="combo tap">
-<tspan x="700" dy="-0.6em" style="font-size: 60%">AL</tspan><tspan x="700" dy="1.2em" style="font-size: 60%">CALCULATOR</tspan>
-</text>
 </g>
 </g>
 </g>
@@ -2015,6 +2007,9 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key held keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<a href="#COLEDH">
+<text x="0" y="-4" class="key held tap layer-activator">COLEDH</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key trans keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2076,10 +2071,10 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">9</tspan>
 </text>
 </g>
-<g transform="translate(896, 49)" class="key trans keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(896, 49)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">%</text>
 </g>
 <g transform="translate(952, 49)" class="key trans keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2123,10 +2118,12 @@ rect.held, rect.combo.held {
 <use href="#mdi:menu-left" xlink:href="#mdi:menu-left" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:menu-left"/>
 <use href="#mdi:mouse" xlink:href="#mdi:mouse" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:mouse"/>
 </g>
-<g transform="translate(546, 97)" class="key trans keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(546, 97)" class="key keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 60%">AL</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">CALCULATOR</tspan>
+</text>
 </g>
 <g transform="translate(602, 97)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

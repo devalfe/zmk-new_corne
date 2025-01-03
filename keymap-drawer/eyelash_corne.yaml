@@ -294,7 +294,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MINECR:
-  - {type: held}
+  - {t: COLEDH, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - E
   - W
@@ -305,7 +305,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - L
@@ -314,7 +314,7 @@ layers:
   - D
   - {t: '2', s: '@'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AL CALCULATOR
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - KP 4
@@ -346,13 +346,13 @@ combos:
 - p: [5, 7]
   k: {t: BLTRGB, h: toggle}
   l: [COLEDH]
-- p: [8, 9, 10]
+- p: [22, 23]
   k: {t: MINECR, h: toggle}
   l: [COLEDH]
-- p: [43, 16]
+- p: [46, 24]
   k: {t: NUMBER, h: toggle}
   l: [COLEDH]
-- p: [46, 24]
+- p: [24, 45]
   k: {t: SYMBOL, h: toggle}
   l: [COLEDH]
 - p: [44, 16]
@@ -376,7 +376,4 @@ combos:
   l: [MINECR, NUMBER]
 - p: [31, 32]
   k: $$mdi:apple-keyboard-caps$$
-  l: [COLEDH]
-- p: [22, 23]
-  k: AL CALCULATOR
   l: [COLEDH]
