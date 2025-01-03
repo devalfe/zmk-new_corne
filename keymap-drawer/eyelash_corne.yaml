@@ -335,7 +335,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP ENTER
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
@@ -358,3 +358,18 @@ combos:
 - p: [44, 4]
   k: {t: NAV, h: toggle}
   l: [COLEDH]
+- p: [37, 38]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [38, 39]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [23, 24]
+  k: KP PLUS
+  l: [MINECR]
+- p: [24, 25]
+  k: KP MINUS
+  l: [MINECR]
+- p: [9, 24]
+  k: KP MULTIPLY
+  l: [MINECR]
+- p: [24, 38]
+  k: KP DIVIDE
