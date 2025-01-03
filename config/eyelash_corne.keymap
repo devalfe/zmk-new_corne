@@ -110,24 +110,31 @@
         numplus {
             bindings = <&kp KP_PLUS>;
             key-positions = <23 24>;
-            layers = <6>;
+            layers = <6 1>;
         };
 
         numminus {
             bindings = <&kp KP_MINUS>;
             key-positions = <24 25>;
-            layers = <6>;
+            layers = <6 1>;
         };
 
         nummulti {
             bindings = <&kp KP_MULTIPLY>;
             key-positions = <9 24>;
-            layers = <6>;
+            layers = <6 1>;
         };
 
         numdiv {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <24 38>;
+            layers = <6 1>;
+        };
+
+        cmb_caps {
+            bindings = <&kp CAPS>;
+            key-positions = <31 32>;
+            layers = <0>;
         };
     };
 
