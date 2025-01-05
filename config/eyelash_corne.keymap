@@ -109,23 +109,23 @@
 
         cmb_back {
             bindings = <&kp BACKSPACE>;
-            key-positions = <37 38>;
+            key-positions = <23 24>;
         };
 
         cmb_del {
             bindings = <&kp DEL>;
-            key-positions = <38 39>;
+            key-positions = <24 25>;
         };
 
         numplus {
             bindings = <&kp KP_PLUS>;
-            key-positions = <23 24>;
+            key-positions = <37 38>;
             layers = <6 1>;
         };
 
         numminus {
             bindings = <&kp KP_MINUS>;
-            key-positions = <24 25>;
+            key-positions = <38 39>;
             layers = <6 1>;
         };
 
