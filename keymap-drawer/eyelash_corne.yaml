@@ -42,12 +42,12 @@ layers:
   - {t: ., s: '>'}
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '&td0'
+  - {t: '$$mdi:apple-keyboard-option$$', h: BLTRGB}
   - {t: 'Gui+ $$mdi:keyboard-space$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
+  - '&shiftnextcaps'
+  - {t: NUMBER, h: NUMBER}
   - {t: SYMBOL, h: SYMBOL}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: NUMBER}
-  - {t: NUMBER, h: BLTRGB}
   NUMBER:
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -143,9 +143,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: COLEDH, h: toggle}
   - F1
@@ -238,12 +238,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
