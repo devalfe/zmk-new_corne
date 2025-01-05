@@ -358,14 +358,14 @@ combos:
 - p: [44, 16]
   k: {t: NAV, h: toggle}
   l: [COLEDH]
-- p: [37, 38]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [38, 39]
-  k: $$mdi:backspace-reverse-outline$$
 - p: [23, 24]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [24, 25]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [37, 38]
   k: KP PLUS
   l: [MINECR, NUMBER]
-- p: [24, 25]
+- p: [38, 39]
   k: KP MINUS
   l: [MINECR, NUMBER]
 - p: [9, 8]
