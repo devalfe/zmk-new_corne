@@ -352,7 +352,7 @@ combos:
 - p: [46, 24]
   k: {t: NUMBER, h: toggle}
   l: [COLEDH]
-- p: [24, 45]
+- p: [24, 47]
   k: {t: SYMBOL, h: toggle}
   l: [COLEDH]
 - p: [44, 16]

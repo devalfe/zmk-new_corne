@@ -588,12 +588,12 @@ rect.held, rect.combo.held {
 </a><text x="739" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
-<path d="M708,154 l62,-58" class="combo"/>
-<path d="M708,154 l-62,58" class="combo"/>
-<rect rx="6" ry="6" x="694" y="141" width="28" height="26" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<path d="M770,143 l-10,41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
 <a href="#SYMBOL">
-<text x="708" y="154" class="combo tap layer-activator">SYMBOL</text>
-</a><text x="708" y="165" class="combo hold">toggle</text>
+<text x="770" y="143" class="combo tap layer-activator">SYMBOL</text>
+</a><text x="770" y="154" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
 <path d="M272,155 l62,58" class="combo"/>
