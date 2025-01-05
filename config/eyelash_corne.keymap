@@ -20,11 +20,13 @@
             delay-ms = <0>;                   // 0
         };
 
-        td0: td0 {
+        shiftnextcaps: shiftnextcaps {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT>, <&kp CAPS>;
+            bindings = <&sk RIGHT_SHIFT>, <&kp CAPS>;
+
+            label = "shiftnextcaps";
         };
 
         hml: hml {
@@ -170,10 +172,10 @@
         default_layer {
             display-name = "COLEDH";
             bindings = <
-&lt 6 ESC  &kp Q            &kp W            &kp F         &kp P              &kp B                                   &kp UP                &kp J       &kp L                 &kp U         &kp Y             &kp SQT           &kp GRAVE
-&kp TAB    &hml LEFT_WIN A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M       &hml RIGHT_SHIFT N    &hml RCTRL E  &hml RIGHT_ALT I  &hml RIGHT_WIN O  &kp FSLH
-&kp LCTRL  &kp Z            &kp X            &kp C         &kp D              &kp V        &kp LG(LA(K))              &kp DOWN              &kp K       &kp H                 &kp COMMA     &kp DOT           &kp SEMI          &kp RET
-                                             &td0          &lt 5 LG(SPACE)    &lt 3 SPACE                                                   &sl_mo 2 2  &sk_mo 1 RIGHT_SHIFT  &sl_mo 4 1
+&lt 6 ESC  &kp Q            &kp W            &kp F           &kp P              &kp B                                   &kp UP                &kp J           &kp L               &kp U         &kp Y             &kp SQT           &kp GRAVE
+&kp TAB    &hml LEFT_WIN A  &hml LEFT_ALT R  &hml LCTRL S    &hml LEFT_SHIFT T  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M           &hml RIGHT_SHIFT N  &hml RCTRL E  &hml RIGHT_ALT I  &hml RIGHT_WIN O  &kp FSLH
+&kp LCTRL  &kp Z            &kp X            &kp C           &kp D              &kp V        &kp LG(LA(K))              &kp DOWN              &kp K           &kp H               &kp COMMA     &kp DOT           &kp SEMI          &kp RET
+                                             &lt 4 LEFT_ALT  &lt 5 LG(SPACE)    &lt 3 SPACE                                                   &shiftnextcaps  &sl_mo 1 1          &sl_mo 2 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
