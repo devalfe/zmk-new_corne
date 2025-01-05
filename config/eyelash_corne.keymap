@@ -99,7 +99,7 @@
 
         ToSymbol {
             bindings = <&to 2>;
-            key-positions = <24 45>;
+            key-positions = <24 47>;
             layers = <0>;
         };
 
