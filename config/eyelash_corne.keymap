@@ -197,9 +197,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&to 0   &trans    &kp CARET    &kp STAR  &kp COLON   &trans                                 &mmv MOVE_UP                     &trans     &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp TILDE
-&trans  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH  &kp GRAVE
-&trans  &trans    &trans       &trans    &trans      &trans       &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE  &kp RET
+&to 0   &trans    &kp CARET    &kp STAR  &kp COLON   &trans                                 &mmv MOVE_UP                     &trans     &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &kp TILDE
+&trans  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH    &kp GRAVE
+&trans  &trans    &trans       &trans    &trans      &trans       &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE    &kp RET
                                &trans    &trans      &trans                                                                  &trans     &trans     &trans
             >;
 
@@ -246,7 +246,7 @@
         layer_6 {
             bindings = <
 &to 0      &trans  &kp E   &kp W   &kp F      &kp N1                              &mmv MOVE_UP                          &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_N8  &kp KP_N9  &kp PRCNT   &trans
-&trans     &kp L   &kp A   &kp S   &kp D      &kp N2              &mmv MOVE_LEFT  &kp C_AL_CALCULATOR  &mmv MOVE_RIGHT  &mkp LCLK       &kp KP_N4        &kp KP_N5  &kp KP_N6  &middledot  &trans
+&trans     &kp L   &kp A   &kp S   &kp D      &kp N2              &mmv MOVE_LEFT  &kp C_AL_CALCULATOR  &mmv MOVE_RIGHT  &mkp LCLK       &kp KP_N4        &kp KP_N5  &kp KP_N6  &trans      &trans
 &kp LCTRL  &kp F1  &kp F2  &kp F3  &kp F4     &kp N3     &to 0                    &mmv MOVE_DOWN                        &mkp RCLK       &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp KP_DOT  &kp KP_ENTER
                            &trans  &kp LSHFT  &kp SPACE                                                                 &mkp LCLK       &mkp RCLK        &kp KP_N0
             >;
