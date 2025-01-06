@@ -87,7 +87,7 @@
 
         ToMNCR {
             bindings = <&tog 6>;
-            key-positions = <22 23>;
+            key-positions = <7 8>;
             layers = <0>;
         };
 
@@ -190,10 +190,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&to 0   &trans        &kp FSLH      &kp STAR      &kp N5        &kp LEFT_PARENTHESIS                                &mmv MOVE_UP                     &kp RIGHT_PARENTHESIS  &kp NUMBER_6   &kp PLUS       &kp MINUS         &trans     &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp C_AL_CALCULATOR                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL              &kp N7         &kp N8         &kp N9            &kp N0     &trans
-&trans  &trans        &trans        &trans        &trans        &kp LEFT_BRACKET      &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_BRACKET      &kp LA(EQUAL)  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &trans
-                                    &trans        &trans        &trans                                                                               &trans                 &kp PERIOD     &trans
+&to 0   &trans        &kp FSLH      &kp STAR      &kp N5        &kp LEFT_PARENTHESIS                        &trans          &kp RIGHT_PARENTHESIS  &kp NUMBER_6   &kp PLUS       &kp MINUS         &trans     &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp C_AL_CALCULATOR                 &trans  &trans  &trans  &kp EQUAL              &kp N7         &kp N8         &kp N9            &kp N0     &trans
+&trans  &trans        &trans        &trans        &trans        &kp LEFT_BRACKET      &kp C_MUTE            &trans          &kp RIGHT_BRACKET      &kp LA(EQUAL)  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &trans
+                                    &trans        &trans        &trans                                                      &trans                 &kp PERIOD     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -202,10 +202,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&to 0   &trans    &kp CARET    &kp STAR  &kp COLON   &trans                                 &mmv MOVE_UP                     &trans     &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &kp TILDE
-&trans  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH    &kp GRAVE
-&trans  &trans    &trans       &trans    &trans      &trans       &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE    &kp RET
-                               &trans    &trans      &trans                                                                  &trans     &trans     &trans
+&to 0   &trans    &kp CARET    &kp STAR  &kp COLON   &trans                         &trans          &trans     &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &kp TILDE
+&trans  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT            &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH    &kp GRAVE
+&trans  &trans    &trans       &trans    &trans      &trans       &trans            &trans          &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE    &kp RET
+                               &trans    &trans      &trans                                         &trans     &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
