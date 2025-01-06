@@ -193,8 +193,8 @@
             bindings = <
 &to 0   &trans        &kp FSLH      &kp STAR      &kp N5        &kp LEFT_PARENTHESIS                        &trans          &kp RIGHT_PARENTHESIS  &kp NUMBER_6   &kp PLUS       &kp MINUS         &trans     &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp C_AL_CALCULATOR                 &trans  &trans  &trans  &kp EQUAL              &kp N7         &kp N8         &kp N9            &kp N0     &trans
-&trans  &trans        &trans        &trans        &trans        &kp LEFT_BRACKET      &kp C_MUTE            &trans          &kp RIGHT_BRACKET      &kp LA(EQUAL)  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &trans
-                                    &trans        &trans        &trans                                                      &trans                 &kp PERIOD     &trans
+&trans  &trans        &kp CARET     &kp PERCENT   &kp KP_DOT    &kp LEFT_BRACKET      &kp C_MUTE            &trans          &kp RIGHT_BRACKET      &kp LA(EQUAL)  &kp LESS_THAN  &kp GREATER_THAN  &kp COLON  &trans
+                                    &trans        &kp COMMA     &trans                                                      &trans                 &kp PERIOD     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
