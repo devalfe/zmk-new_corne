@@ -59,6 +59,14 @@
             tapping-term-ms = <160>;
             flavor = "tap-preferred";
         };
+
+        num_word: num_word {
+          compatible = "zmk,behavior-auto-layer";
+          #binding-cells = <0>;
+          layers = <1>; // Replace NUM by index of numbers layer
+          continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+          ignore-numbers;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -153,14 +161,6 @@
             key-positions = <16 17>;
             layers = <0>;
         };
-        num_word: num_word {
-          compatible = "zmk,behavior-auto-layer";
-          #binding-cells = <0>;
-          layers = <1>; // Replace NUM by index of numbers layer
-          continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
-          ignore-numbers;
-        };
-
     };
 
     macros {
