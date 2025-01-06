@@ -6,6 +6,9 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: urob
+      url-base: https://github.com/urob
+      # to get the zmk-auto-layer for num-word feature
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -14,5 +17,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-auto-layer
+      remote: urob
+      revision: main # set to same version as zmk
   self:
     path: config
