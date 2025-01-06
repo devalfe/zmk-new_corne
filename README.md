@@ -19,25 +19,25 @@ There is an on tap behaviour on the middle left thumb key that has win+space (la
 For this i am using a custom behaviour of altered home row modifiers on the rest position of my fingers with tap preferred logic to avoid accidental triggering. This makes me a bit slower on the initiation of the combo but it is acceptable for me.
 
 Most common keyboard shortcuts used
-win+arrow (from the joystick) to move app windows around
-win+number to activate the equivalent pinned item of windows taskbar
-win+shift+number to open a new session -//- 
-win+L to lock in windows
-win+r to run cmd etc
-win+i to access windows settings and connect to my wireless headset if not immediately connected (i find it faster than win+k that is searching devices)
-win+e to open file explorer
-win+shift+tilde(`) to access the windows power toys app zones editor
-win+alt+k as a combo stored in rotary encoder click to easy toggle mic mute accross system (yes overrides teams mute also) super handy
-ctr+t new tab in browsers, file explorer, format as table in excel
-ctr+n new window, new folder
-ctr+shift+r to hard refresh tab
-ctr+1 to open options in excel
-ctr+w to quit
-ctr+f to find
-ctr+L to access the address bar (combo this with win+number makes me super fast in opening new tabs or copying url to provide to another app)
-ctr+backspace to delete word by word (backspace is combo of n,e)
-ctr+tilde to reveal formulas in excel
-alt+arrow to navigate in file explorer 
+* win+arrow (from the joystick) to move app windows around
+* win+number to activate the equivalent pinned item of windows taskbar
+* win+shift+number to open a new session -//- 
+* win+L to lock in windows
+* win+r to run cmd etc
+* win+i to access windows settings and connect to my wireless headset if not immediately connected (i find it faster than win+k that is searching devices)
+* win+e to open file explorer
+* win+shift+tilde(`) to access the windows power toys app zones editor
+* win+alt+k as a combo stored in rotary encoder click to easy toggle mic mute accross system (yes overrides teams mute also) super handy
+* ctr+t new tab in browsers, file explorer, format as table in excel
+* ctr+n new window, new folder
+* ctr+shift+r to hard refresh tab
+* ctr+1 to open options in excel
+* ctr+w to quit
+* ctr+f to find
+* ctr+L to access the address bar (combo this with win+number makes me super fast in opening new tabs or copying url to provide to another app)
+* ctr+backspace to delete word by word (backspace is combo of n,e)
+* ctr+tilde to reveal formulas in excel
+* alt+arrow to navigate in file explorer 
 
 Why is there a dedicated alt button although I have alt also in home row mods?
 Well the home row mods holds down a key and needs a bit of time to do so and especially in excel where with alt press and release you can access the ribbon giving you access to any item by hitting a series of keys. I can also trigger these with / for excel but in windows alt+whatever key is underlined gives you keyboard access to any item of the context menu.
