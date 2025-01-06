@@ -44,7 +44,7 @@ Well the home row mods holds down a key and needs a bit of time to do so and esp
 
 Sticky shift / caps dtap/tap mod on the right hand side thumb cluster super handy for Capitalising First Word Of Each Word with a single tap reducing the stress of shift being held and increasing my typing speed with punctuation by just adding a tap in the flow. Double tap provides Caps lock. Caps lock is also in a two key combo of c,d but i am not sure what to keep yet so i have them both. There is also Caps word behaviour on the combo of s,t. I was afraid that i would trigger ctrl+shift accidentally but I was happy to discover there was no such issue.
 
-Backspace and delete were residing on my thumb cluster in the past but now I have them on two key combos in the home row n,e and e,i. Very handy and insane fast to delele with ctr n,e word by word.
+Backspace and delete were residing on my thumb cluster in the past but now I have them on two key combos in the home row n,e and e,i. Very handy and insane fast to delete with ctr n,e word by word.
 
 Smart num functionality on the right thumb cluster to have num_word on tap and mo for num layer on hold.
 
