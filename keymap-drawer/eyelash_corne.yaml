@@ -34,7 +34,7 @@ layers:
   - C
   - D
   - V
-  - Gui+Alt+ K
+  - Gui+Alt+K
   - $$mdi:arrow-down-bold$$
   - K
   - H
@@ -43,7 +43,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-option$$', h: BLTRGB}
-  - {t: 'Gui+ $$mdi:keyboard-space$$', h: FUN}
+  - {t: 'Gui+$$mdi:keyboard-space$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - '&shiftnextcaps'
   - {t: NUMBER, h: NUMBER}
@@ -86,7 +86,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
-  - {t: Alt+ =, s: Alt+ +}
+  - {t: Alt+=, s: Alt++}
   - <
   - '>'
   - ':'
@@ -109,7 +109,7 @@ layers:
   - '&'
   - (
   - )
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&middledot'
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -154,13 +154,13 @@ layers:
   - F4
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - Ctl+ Y
-  - Ctl+ C
+  - Ctl+Y
+  - Ctl+C
   - $$mdi:arrow-up-bold$$
-  - Ctl+ V
-  - Ctl+ Z
+  - Ctl+V
+  - Ctl+Z
   - F11
-  - Ctl+ A
+  - Ctl+A
   - F3
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -169,11 +169,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Gui+Sft+ D
+  - Gui+Sft+D
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+ X
+  - Ctl+X
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
@@ -320,7 +320,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - '&middledot'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - F1
