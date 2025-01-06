@@ -377,3 +377,5 @@ combos:
 - p: [31, 32]
   k: $$mdi:apple-keyboard-caps$$
   l: [COLEDH]
+- p: [16, 17]
+  k: $$mdi:alpha-w-box$$
