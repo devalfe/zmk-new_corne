@@ -153,6 +153,14 @@
             key-positions = <16 17>;
             layers = <0>;
         };
+        num_word: num_word {
+          compatible = "zmk,behavior-auto-layer";
+          #binding-cells = <0>;
+          layers = <1>; // Replace NUM by index of numbers layer
+          continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+          ignore-numbers;
+        };
+
     };
 
     macros {
@@ -173,12 +181,6 @@
 
     keymap {
         compatible = "zmk,keymap";
-        
-        &num_word lower_layer;
-
-        &num_word {
-          continue-list = <BSPC DEL DOT COMMA>;  // do not continue on PLUS, MINUS, STAR, FSLH, EQUAL
-        };
 
         default_layer {
             display-name = "COLEDH";
