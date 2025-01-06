@@ -46,7 +46,7 @@ layers:
   - {t: 'Gui+$$mdi:keyboard-space$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - '&shiftnextcaps'
-  - {t: NUMBER, h: NUMBER}
+  - {t: '&num_word', h: NUMBER}
   - {t: SYMBOL, h: SYMBOL}
   NUMBER:
   - {t: COLEDH, h: toggle}
