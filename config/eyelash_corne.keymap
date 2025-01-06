@@ -148,6 +148,11 @@
             key-positions = <31 32>;
             layers = <0>;
         };
+
+        smartcaps {
+            bindings = <&caps_word>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
