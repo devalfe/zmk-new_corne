@@ -70,6 +70,20 @@ I also introduced a custom behavior called sl_mo, which offers a sticky layer on
 I’m considering designing a Smart Sym logic similar to Smart Num, but for now, I don’t encounter frequent cases of typing a series of symbols, except for double brackets or Markdown headers with hashtags.
 
 ## Number Layer
+
+_Left-Hand Side_
+
+Contains numeric keys (1-5) arranged for easy access. Note the raised position of digit 5. I found it easier to move index finger upwards that to the right.
+Symbols such as (, ), *, and { are positioned nearby, useful for mathematical or coding tasks. Mirrored counter-symbols on the right side also.
+A KP DOT (numpad decimal point) key is included for precise numerical input, ensuring I can easily enter the decimal symbol regardless of the language setting—, for Greek and . for US English.
+There is also a toggle key labeled "COLEMAK" for switching back to the base layer.
+
+_Right-Hand Side_
+
+Includes numeric keys (6-9, 0) and arithmetic operators (KP PLUS, KP MINUS, KP MULTIPLY, KP DIVIDE) in positions optimized for quick access.
+A navigation cluster with arrow keys on joystick (↑, ↓, ←, →) is integrated, enhancing usability for editing spreadsheets or navigating code.
+Modifier combinations such as Alt+= (for auto sum feature in excel) are mapped for additional functionality.
+
 ## Symbol Layer
 ## Navigation Layer
 ## Bluetooth & RGB Layer
