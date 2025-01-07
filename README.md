@@ -85,7 +85,42 @@ A navigation cluster with arrow keys on joystick (↑, ↓, ←, →) is integra
 Modifier combinations such as Alt+= (for auto sum feature in excel) are mapped for additional functionality.
 
 ## Symbol Layer
+
+_Left-Hand Side_
+
+Contains frequently used symbols, such as -, _, =, and +, in easily reachable positions.
+Includes a variety of additional symbols like $ which are useful for financial tasks.
+A toggle key labeled "COLEMAK" allows switching back to the primary layer.
+
+_Right-Hand Side_
+
+Features pairs of brackets ((, ), {, }, [, ]), as well as other common symbols like * and \, placed for convenient access.
+Navigation arrows (↑, ↓, ←, →) are present for editing and navigation purposes.
+Keys for special symbols and operations, such as the pipe | and backslash \, are also included.
+
 ## Navigation Layer
+
+_Key Functions_
+
+F1 - F5: General function keys for help, editing/renaming,  freezing named ranges, refreshing pages.
+F11 - F12: for power query / vba (with alt) and browser quick actions.
+Move Up/Down/Left/Right: Cursor movement commands for more efficient navigation surrounded by most used function keys.
+Clipboard (Ctrl + C, X, V, Z, Y): Quick access to clipboard functions like copy, cut, paste, undo, and redo around the reversed T arrows navigation. Copy, paste being near the upwards arrow.
+Media Controls: Includes scroll left, scroll up, scroll down, and scroll right for navigation within documents or web pages.
+Mouse Functions: Includes mouse button 4 (MB4), left-click (LCLK), right-click (RCLK), middle-click (MCLK), mute (C_MUTE), and other mouse-related functionalities.
+
+_Navigation Shortcuts_
+
+Home/End/Page Up/Page Down/Insert/Pause/Break: Manage text navigation and system commands.
+Context Menu: Activate the system context menu with K_CONTEXT_MENU. Maybe one of my most used flow if not the shift+F10 equivalent.
+
+_System and Clipboard Keycodes_
+
+Includes functions like INSERT, HOME, PAGE_UP, PAGE_DOWN, END, and PAUSE_BREAK.
+
+_Layer Toggle and Modifier Keys_
+Use trans to pass through the key to the underlying layer, allowing more flexibility without additional bindings.
+
 ## Bluetooth & RGB Layer
 ## Function Layer
 ## Minecraft & Numpad Layer
