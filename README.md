@@ -9,15 +9,18 @@
 ## Base Layer
 Customising a base layer to hadle some basic needs
 
-1. I replaced QWERTY with a faster layout—Colemak DH—but made a slight adjustment to the placement of the ', /, ; characters. This change was to make the accent giver (;:) key more accessible for my right pinky, as almost every Greek word requires accents. This small tweak significantly improves typing efficiency in Greek.
+### QWERTY replacement with modified COLEMAK-DH
+I replaced QWERTY with a faster layout—Colemak DH—but made a slight adjustment to the placement of the ', /, ; characters. This change was to make the accent giver (;:) key more accessible for my right pinky, as almost every Greek word requires accents. This small tweak significantly improves typing efficiency in Greek.
 
-2. Switching between my main languages (English/Greek) is seamless. I’ve set up an on-tap behavior on the middle left thumb key that triggers Win+Space (the language switcher in Windows). This allows me to effortlessly switch languages mid-sentence without losing speed, even in complex cases like:
+### EN/GR language switcher
+Switching between my main languages (English/Greek) is seamless. I’ve set up an on-tap behavior on the middle left thumb key that triggers Win+Space (the language switcher in Windows). This allows me to effortlessly switch languages mid-sentence without losing speed, even in complex cases like:
 
 "Το Project Plan μας αποτελείται από 4 sprints των 3 εβδομάδων."
 
 This setup makes multilingual typing smooth and natural.
 
-3. I’ve made it easy to input even the most complex keyboard shortcuts by using a custom behavior with altered home row modifiers on my fingers' rest positions. This setup uses tap-preferred logic to prevent accidental triggering, ensuring accuracy.
+### Shortcuts & home row mods
+I’ve made it easy to input even the most complex keyboard shortcuts by using a custom behavior with altered home row modifiers on my fingers' rest positions. This setup uses tap-preferred logic to prevent accidental triggering, ensuring accuracy.
 
 While this approach makes initiating combos slightly slower, it’s an acceptable trade-off for me, as it offers reliability and minimizes mistakes.
 
@@ -42,12 +45,13 @@ Most common keyboard shortcuts used
 * ctr+tilde to reveal formulas in excel
 * alt+arrow to navigate in file explorer 
 
-Why is there a dedicated Alt button when I already have Alt in my home row mods?
+_Why is there a dedicated Alt button when I already have Alt in my home row mods?_
 
 The reason is that home row mods require holding down a key, which takes a bit of time. This can be inconvenient, especially in Excel, where pressing and releasing the Alt key gives you quick access to the ribbon, allowing you to navigate and select items by typing a series of keys.
 
 While I can trigger these actions in Excel using the / key, in Windows, pressing Alt along with the underlined key in a menu provides keyboard access to any item in the context menu.
 
+_Sticky shift, Caps, dtap/tap, combos_
 Having a sticky Shift or a Caps dual-tap/tap mod on the right-hand thumb cluster is incredibly useful for capitalizing the first letter of each word with a single tap. This setup not only reduces the strain of holding down the Shift key but also improves typing speed, especially when punctuation is involved, as it seamlessly integrates into the typing flow.
 
 Double-tapping activates Caps Lock, which is also accessible through a two-key combo (C+D). While I'm still deciding which setup I prefer, I currently have both options available. Additionally, there's a Caps Word behavior mapped to the S+T combo, which is handy for typing in all caps briefly.
@@ -58,6 +62,7 @@ I used to have Backspace and Delete on my thumb cluster, but now I’ve moved th
 
 On the right thumb cluster, I’ve added Smart Num functionality. It provides num_word (numbers on tap) and mo (access to the num layer) on hold.
 
+_Sticky Layer / Momentary Layer custom behavior_
 I also introduced a custom behavior called sl_mo, which offers a sticky layer on tap and a momentary layer (mo) on hold. I use this on the right-hand cluster to type a single symbol with a tap or access a full symbol layer when held.
 
 I’m considering designing a Smart Sym logic similar to Smart Num, but for now, I don’t encounter frequent cases of typing a series of symbols, except for double brackets or Markdown headers with hashtags.
