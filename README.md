@@ -9,14 +9,17 @@
 ## Base Layer
 Customising a base layer to hadle some basic needs
 
-1. Replace QUERTY with a more speedy layout
-Layout of choice is COLEMAK DH with a slight rotation of the ', /, ; characters because i wanted an easier access to the accent giver (;:) button for my right pinky as almost every word gets accented in greek words.
+1. I replaced QWERTY with a faster layout—Colemak DH—but made a slight adjustment to the placement of the ', /, ; characters. This change was to make the accent giver (;:) key more accessible for my right pinky, as almost every Greek word requires accents. This small tweak significantly improves typing efficiency in Greek.
 
-2. Easily change between my main languages (English/Greek)
-There is an on tap behaviour on the middle left thumb key that has win+space (language switcher for windows) that gives me that simple way to flow between languages even in the most difficult sentences without losing speed. e.g. "Το Project Plan μας αποτελείται από 4 sprints των 3 εβδομάδων."
+2. Switching between my main languages (English/Greek) is seamless. I’ve set up an on-tap behavior on the middle left thumb key that triggers Win+Space (the language switcher in Windows). This allows me to effortlessly switch languages mid-sentence without losing speed, even in complex cases like:
 
-3. Easily input even the most difficult keyboard shortcuts
-For this i am using a custom behaviour of altered home row modifiers on the rest position of my fingers with tap preferred logic to avoid accidental triggering. This makes me a bit slower on the initiation of the combo but it is acceptable for me.
+"Το Project Plan μας αποτελείται από 4 sprints των 3 εβδομάδων."
+
+This setup makes multilingual typing smooth and natural.
+
+3. I’ve made it easy to input even the most complex keyboard shortcuts by using a custom behavior with altered home row modifiers on my fingers' rest positions. This setup uses tap-preferred logic to prevent accidental triggering, ensuring accuracy.
+
+While this approach makes initiating combos slightly slower, it’s an acceptable trade-off for me, as it offers reliability and minimizes mistakes.
 
 Most common keyboard shortcuts used
 * win+arrow (from the joystick) to move app windows around
@@ -39,16 +42,25 @@ Most common keyboard shortcuts used
 * ctr+tilde to reveal formulas in excel
 * alt+arrow to navigate in file explorer 
 
-Why is there a dedicated alt button although I have alt also in home row mods?
-Well the home row mods holds down a key and needs a bit of time to do so and especially in excel where with alt press and release you can access the ribbon giving you access to any item by hitting a series of keys. I can also trigger these with / for excel but in windows alt+whatever key is underlined gives you keyboard access to any item of the context menu.
+Why is there a dedicated Alt button when I already have Alt in my home row mods?
 
-Sticky shift / caps dtap/tap mod on the right hand side thumb cluster super handy for Capitalising First Word Of Each Word with a single tap reducing the stress of shift being held and increasing my typing speed with punctuation by just adding a tap in the flow. Double tap provides Caps lock. Caps lock is also in a two key combo of c,d but i am not sure what to keep yet so i have them both. There is also Caps word behaviour on the combo of s,t. I was afraid that i would trigger ctrl+shift accidentally but I was happy to discover there was no such issue.
+The reason is that home row mods require holding down a key, which takes a bit of time. This can be inconvenient, especially in Excel, where pressing and releasing the Alt key gives you quick access to the ribbon, allowing you to navigate and select items by typing a series of keys.
 
-Backspace and delete were residing on my thumb cluster in the past but now I have them on two key combos in the home row n,e and e,i. Very handy and insane fast to delete with ctr n,e word by word.
+While I can trigger these actions in Excel using the / key, in Windows, pressing Alt along with the underlined key in a menu provides keyboard access to any item in the context menu.
 
-Smart num functionality on the right thumb cluster to have num_word on tap and mo for num layer on hold.
+Having a sticky Shift or a Caps dual-tap/tap mod on the right-hand thumb cluster is incredibly useful for capitalizing the first letter of each word with a single tap. This setup not only reduces the strain of holding down the Shift key but also improves typing speed, especially when punctuation is involved, as it seamlessly integrates into the typing flow.
 
-Added a custom behaviour sl_mo that provides a sticky layer on tap and a mo on hold that is used on the right hand cluster to provide a single symbol on tap and a symbol layer on hold. Might study how to build a smart sym logic similar to smart num but I currently dont think I have that many cases of a series of symbols to be typed other than double brackets and the markdown of headers with hashtags.
+Double-tapping activates Caps Lock, which is also accessible through a two-key combo (C+D). While I'm still deciding which setup I prefer, I currently have both options available. Additionally, there's a Caps Word behavior mapped to the S+T combo, which is handy for typing in all caps briefly.
+
+Initially, I was concerned about accidentally triggering Ctrl+Shift, but I was relieved to find that this issue didn’t occur.
+
+I used to have Backspace and Delete on my thumb cluster, but now I’ve moved them to two-key combos on the home row: N+E for Backspace and E+I for Delete. This setup is extremely convenient and makes deleting word by word with Ctrl+N+E insanely fast.
+
+On the right thumb cluster, I’ve added Smart Num functionality. It provides num_word (numbers on tap) and mo (access to the num layer) on hold.
+
+I also introduced a custom behavior called sl_mo, which offers a sticky layer on tap and a momentary layer (mo) on hold. I use this on the right-hand cluster to type a single symbol with a tap or access a full symbol layer when held.
+
+I’m considering designing a Smart Sym logic similar to Smart Num, but for now, I don’t encounter frequent cases of typing a series of symbols, except for double brackets or Markdown headers with hashtags.
 
 ## Number Layer
 ## Symbol Layer
