@@ -113,6 +113,7 @@ _Navigation Shortcuts_
 
 Home/End/Page Up/Page Down/Insert/Pause/Break: Manage text navigation and system commands.
 Context Menu: Activate the system context menu with K_CONTEXT_MENU. Maybe one of my most used flow if not the shift+F10 equivalent.
+Win+shift+D mapped to the right index finger secondary position allows for the quick use of mouse jump feature of power toys. This creates a mini map of all the screens available at the current position of your cursor. This allows to utilize the mouse emulator even more accross screens without delays on cursor movement.
 
 _System and Clipboard Keycodes_
 
