@@ -52,6 +52,7 @@ The reason is that home row mods require holding down a key, which takes a bit o
 While I can trigger these actions in Excel using the / key, in Windows, pressing Alt along with the underlined key in a menu provides keyboard access to any item in the context menu.
 
 _Sticky shift, Caps, dtap/tap, combos_
+
 Having a sticky Shift or a Caps dual-tap/tap mod on the right-hand thumb cluster is incredibly useful for capitalizing the first letter of each word with a single tap. This setup not only reduces the strain of holding down the Shift key but also improves typing speed, especially when punctuation is involved, as it seamlessly integrates into the typing flow.
 
 Double-tapping activates Caps Lock, which is also accessible through a two-key combo (C+D). While I'm still deciding which setup I prefer, I currently have both options available. Additionally, there's a Caps Word behavior mapped to the S+T combo, which is handy for typing in all caps briefly.
@@ -63,6 +64,7 @@ I used to have Backspace and Delete on my thumb cluster, but now I’ve moved th
 On the right thumb cluster, I’ve added Smart Num functionality. It provides num_word (numbers on tap) and mo (access to the num layer) on hold.
 
 _Sticky Layer / Momentary Layer custom behavior_
+
 I also introduced a custom behavior called sl_mo, which offers a sticky layer on tap and a momentary layer (mo) on hold. I use this on the right-hand cluster to type a single symbol with a tap or access a full symbol layer when held.
 
 I’m considering designing a Smart Sym logic similar to Smart Num, but for now, I don’t encounter frequent cases of typing a series of symbols, except for double brackets or Markdown headers with hashtags.
