@@ -1,6 +1,6 @@
 layers:
   COLEDH:
-  - {t: '$$mdi:keyboard-esc$$', h: MINECR}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-option$$', h: BLTRGB}
+  - $$mdi:apple-keyboard-option$$
   - {t: 'Gui+$$mdi:keyboard-space$$', h: FUN}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - '&shiftnextcaps'
@@ -238,7 +238,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,7 +294,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MINECR:
-  - {t: COLEDH, h: toggle, type: held}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - E
   - W
@@ -307,7 +307,7 @@ layers:
   - KP 9
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: COLEDH, h: toggle}
   - L
   - A
   - S
@@ -346,7 +346,7 @@ combos:
 - p: [5, 7]
   k: {t: BLTRGB, h: toggle}
   l: [COLEDH]
-- p: [7, 8]
+- p: [0, 1]
   k: {t: MINECR, h: toggle}
   l: [COLEDH]
 - p: [46, 24]
@@ -379,4 +379,7 @@ combos:
   l: [COLEDH]
 - p: [16, 17]
   k: $$mdi:alpha-w-box$$
+  l: [COLEDH]
+- p: [1, 2]
+  k: {t: BLTRGB, h: toggle}
   l: [COLEDH]
