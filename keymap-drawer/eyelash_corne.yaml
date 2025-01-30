@@ -39,7 +39,7 @@ layers:
   - K
   - H
   - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ., h: BLTRGB}
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB EFR
   - RGB EFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -343,21 +343,17 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - KP 0
 combos:
-- p: [5, 7]
-  k: {t: BLTRGB, h: toggle}
-  l: [COLEDH]
-- p: [0, 1]
+- p: [2, 3]
   k: {t: MINECR, h: toggle}
   l: [COLEDH]
-- p: [46, 24]
+- p: [8, 9]
   k: {t: NUMBER, h: toggle}
   l: [COLEDH]
-- p: [24, 47]
+- p: [10, 9]
   k: {t: SYMBOL, h: toggle}
   l: [COLEDH]
-- p: [44, 16]
+- p: [16, 15, 17]
   k: {t: NAV, h: toggle}
-  l: [COLEDH]
 - p: [23, 24]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [24, 25]
@@ -380,6 +376,8 @@ combos:
 - p: [16, 17]
   k: $$mdi:alpha-w-box$$
   l: [COLEDH]
-- p: [1, 2]
+- p: [3, 4]
   k: {t: BLTRGB, h: toggle}
   l: [COLEDH]
+- p: [25, 24, 23]
+  k: $$mdi:keyboard-tab$$
