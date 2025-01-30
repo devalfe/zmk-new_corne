@@ -98,34 +98,27 @@
     combos {
         compatible = "zmk,combos";
 
-        ToBLT {
-            bindings = <&to 4>;
-            key-positions = <5 7>;
-            layers = <0>;
-        };
-
         ToMNCR {
             bindings = <&tog 6>;
-            key-positions = <0 1>;
+            key-positions = <2 3>;
             layers = <0>;
         };
 
         ToNum {
             bindings = <&to 1>;
-            key-positions = <46 24>;
+            key-positions = <8 9>;
             layers = <0>;
         };
 
         ToSymbol {
             bindings = <&to 2>;
-            key-positions = <24 47>;
+            key-positions = <10 9>;
             layers = <0>;
         };
 
         ToNav {
-            bindings = <&to 3>;
-            key-positions = <44 16>;
-            layers = <0>;
+            bindings = <&tog 3>;
+            key-positions = <16 15 17>;
         };
 
         cmb_back {
@@ -176,8 +169,13 @@
 
         togblt {
             bindings = <&tog 4>;
-            key-positions = <1 2>;
+            key-positions = <3 4>;
             layers = <0>;
+        };
+
+        tabcombo {
+            bindings = <&kp TAB>;
+            key-positions = <25 24 23>;
         };
     };
 
@@ -205,7 +203,7 @@
             bindings = <
 &kp ESC    &kp Q            &kp W            &kp F         &kp P              &kp B                                   &kp UP                &kp J           &kp L               &kp U         &kp Y             &kp SQT           &kp GRAVE
 &kp TAB    &hml LEFT_WIN A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M           &hml RIGHT_SHIFT N  &hml RCTRL E  &hml RIGHT_ALT I  &hml RIGHT_WIN O  &kp FSLH
-&kp LCTRL  &kp Z            &kp X            &kp C         &kp D              &kp V        &kp LG(LA(K))              &kp DOWN              &kp K           &kp H               &kp COMMA     &kp DOT           &kp SEMI          &kp RET
+&kp LCTRL  &kp Z            &kp X            &kp C         &kp D              &kp V        &kp LG(LA(K))              &kp DOWN              &kp K           &kp H               &kp COMMA     &lt 4 PERIOD      &kp SEMI          &kp RET
                                              &kp LEFT_ALT  &lt 5 LG(SPACE)    &lt 3 SPACE                                                   &shiftnextcaps  &smart_num 1 1      &sl_mo 2 2
             >;
 
