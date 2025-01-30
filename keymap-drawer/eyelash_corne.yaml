@@ -348,10 +348,8 @@ combos:
   l: [COLEDH]
 - p: [8, 9]
   k: {t: NUMBER, h: toggle}
-  l: [COLEDH]
 - p: [10, 9]
   k: {t: SYMBOL, h: toggle}
-  l: [COLEDH]
 - p: [16, 15, 17]
   k: {t: NAV, h: toggle}
 - p: [23, 24]
