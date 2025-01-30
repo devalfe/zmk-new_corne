@@ -105,15 +105,13 @@
         };
 
         ToNum {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <8 9>;
-            layers = <0>;
         };
 
         ToSymbol {
-            bindings = <&to 2>;
+            bindings = <&tog 2>;
             key-positions = <10 9>;
-            layers = <0>;
         };
 
         ToNav {
