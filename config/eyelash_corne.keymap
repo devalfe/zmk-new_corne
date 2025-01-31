@@ -132,25 +132,25 @@
         numplus {
             bindings = <&kp KP_PLUS>;
             key-positions = <37 38>;
-            layers = <6 1>;
+            layers = <6>;
         };
 
         numminus {
             bindings = <&kp KP_MINUS>;
             key-positions = <38 39>;
-            layers = <6 1>;
+            layers = <6>;
         };
 
         nummulti {
             bindings = <&kp KP_MULTIPLY>;
             key-positions = <9 8>;
-            layers = <6 1>;
+            layers = <6>;
         };
 
         numdiv {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <9 10>;
-            layers = <6 1>;
+            layers = <6>;
         };
 
         cmb_caps {
@@ -238,7 +238,7 @@
             bindings = <
 &to 0      &kp F1          &kp F2          &mmv MOVE_UP    &kp F4              &kp F5                                  &mmv MOVE_UP                     &kp LC(Y)      &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
 &kp LC(A)  &kp F3          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT     &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LG(LS(D))  &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
-&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAUSE_BREAK
+&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp ENTER
                                            &trans          &kp K_CONTEXT_MENU  &trans                                                                   &mkp LCLK      &mkp RCLK  &mkp MCLK
             >;
 
