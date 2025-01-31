@@ -188,7 +188,7 @@ layers:
   - PgDn
   - PgUp
   - END
-  - PAUSE BREAK
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - CONTEXT MENU
   - {type: held}
@@ -358,16 +358,16 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [37, 38]
   k: KP PLUS
-  l: [MINECR, NUMBER]
+  l: [MINECR]
 - p: [38, 39]
   k: KP MINUS
-  l: [MINECR, NUMBER]
+  l: [MINECR]
 - p: [9, 8]
   k: KP MULTIPLY
-  l: [MINECR, NUMBER]
+  l: [MINECR]
 - p: [9, 10]
   k: KP DIVIDE
-  l: [MINECR, NUMBER]
+  l: [MINECR]
 - p: [31, 32]
   k: $$mdi:apple-keyboard-caps$$
   l: [COLEDH]
