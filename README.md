@@ -23,10 +23,13 @@ Switching between my main languages (English/Greek) is seamless. I’ve set up a
 
 This setup makes multilingual typing smooth and natural.
 
-### Shortcuts & home row mods
-I’ve made it easy to input even the most complex keyboard shortcuts by using a custom behavior with altered home row modifiers on my fingers' rest positions. This setup uses tap-preferred logic to prevent accidental triggering, ensuring accuracy.
-
-While this approach makes initiating combos slightly slower, it’s an acceptable trade-off for me, as it offers reliability and minimizes mistakes.
+### Shortcuts
+Used to have home row mods that made initiating combos slightly slower so I moved the home row located mods to symbol and number layer left half.
+Moreover, in base layer their is sk_mo (sticky key on tap and momentarily layer on hold) behaviour to help me faster input shortcuts like ctrl+t,w,s,c,v etc. 
+Ctrl sticky lives on inner right thumb key cluster.
+Shift sticky lives on outer right thumb key cluster
+Win mod is over pinky ;: key to help in combos like win+e,i,l,t win shift s etc.
+On left half there is dedicated keys for ctrl in alt to have access to ribbon menu with keyboard instead of mouse.
 
 Most common keyboard shortcuts used
 * win+arrow (from the joystick) to move app windows around
