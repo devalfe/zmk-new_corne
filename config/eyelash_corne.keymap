@@ -98,20 +98,14 @@
     combos {
         compatible = "zmk,combos";
 
-        ToMNCR {
-            bindings = <&tog 6>;
-            key-positions = <2 3>;
-            layers = <0>;
-        };
-
         ToNum {
             bindings = <&tog 1>;
-            key-positions = <8 9>;
+            key-positions = <2 3 4>;
         };
 
         ToSymbol {
             bindings = <&tog 2>;
-            key-positions = <10 9>;
+            key-positions = <30 31 32>;
         };
 
         ToNav {
@@ -139,17 +133,6 @@
             bindings = <&caps_word>;
             key-positions = <16 17>;
             layers = <0>;
-        };
-
-        togblt {
-            bindings = <&tog 4>;
-            key-positions = <3 4>;
-            layers = <0>;
-        };
-
-        tabcombo {
-            bindings = <&kp TAB>;
-            key-positions = <25 23 24>;
         };
 
         togbase {
@@ -180,10 +163,10 @@
         default_layer {
             display-name = "COLEDH";
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp F           &kp P            &kp B                                   &kp UP                &kp J                 &kp L           &kp U          &kp Y       &kp SQT              &kp GRAVE
-&kp TAB         &kp A  &kp R  &kp S           &kp T            &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M                 &kp N           &kp E          &kp I       &kp O                &kp FSLH
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp D            &kp V        &kp LG(LA(K))              &kp DOWN              &kp K                 &kp H           &kp COMMA      &kp PERIOD  &hml RIGHT_WIN SEMI  &kp RET
-                              &sk_mo 5 LCTRL  &lt 1 LG(SPACE)  &lt 3 SPACE                                                   &sk_mo 2 RIGHT_SHIFT  &smart_num 4 1  &kp RIGHT_ALT
+&kp ESC         &kp Q  &kp W  &kp F           &kp P            &kp B                                   &kp UP               &kp J                 &kp L           &kp U          &kp Y       &kp SQT              &kp GRAVE
+&kp TAB         &kp A  &kp R  &kp S           &kp T            &kp G                         &kp LEFT  &tog 6    &kp RIGHT  &kp M                 &kp N           &kp E          &kp I       &kp O                &kp FSLH
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp D            &kp V        &kp LG(LA(K))              &kp DOWN             &kp K                 &kp H           &kp COMMA      &kp PERIOD  &hml RIGHT_WIN SEMI  &kp RET
+                              &sk_mo 5 LCTRL  &lt 1 LG(SPACE)  &lt 3 SPACE                                                  &sk_mo 2 RIGHT_SHIFT  &smart_num 4 1  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
