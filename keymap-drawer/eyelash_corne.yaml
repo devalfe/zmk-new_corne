@@ -20,7 +20,7 @@ layers:
   - T
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: MINECR, h: toggle}
   - $$mdi:arrow-right-bold$$
   - M
   - N
@@ -343,12 +343,9 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - KP 0
 combos:
-- p: [2, 3]
-  k: {t: MINECR, h: toggle}
-  l: [COLEDH]
-- p: [8, 9]
+- p: [2, 3, 4]
   k: {t: NUMBER, h: toggle}
-- p: [10, 9]
+- p: [30, 31, 32]
   k: {t: SYMBOL, h: toggle}
 - p: [15, 17, 16]
   k: {t: NAV, h: toggle}
@@ -362,10 +359,5 @@ combos:
 - p: [16, 17]
   k: $$mdi:alpha-w-box$$
   l: [COLEDH]
-- p: [3, 4]
-  k: {t: BLTRGB, h: toggle}
-  l: [COLEDH]
-- p: [25, 23, 24]
-  k: $$mdi:keyboard-tab$$
 - p: [3, 9]
   k: {t: COLEDH, h: toggle}
