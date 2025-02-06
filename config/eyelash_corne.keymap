@@ -183,7 +183,7 @@
 &kp ESC         &kp Q  &kp W  &kp F           &kp P            &kp B                                   &kp UP                &kp J                 &kp L           &kp U          &kp Y       &kp SQT              &kp GRAVE
 &kp TAB         &kp A  &kp R  &kp S           &kp T            &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M                 &kp N           &kp E          &kp I       &kp O                &kp FSLH
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp D            &kp V        &kp LG(LA(K))              &kp DOWN              &kp K                 &kp H           &kp COMMA      &kp PERIOD  &hml RIGHT_WIN SEMI  &kp RET
-                              &sk_mo 4 LCTRL  &lt 5 LG(SPACE)  &lt 3 SPACE                                                   &sk_mo 2 RIGHT_SHIFT  &smart_num 1 1  &kp RIGHT_ALT
+                              &sk_mo 5 LCTRL  &lt 1 LG(SPACE)  &lt 3 SPACE                                                   &sk_mo 2 RIGHT_SHIFT  &smart_num 4 1  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
