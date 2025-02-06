@@ -241,10 +241,10 @@
 
         layer_5 {
             bindings = <
-&none  &none       &none           &none       &none     &none                               &mmv MOVE_UP                     &none            &none         &none            &none           &none    &kp PAUSE_BREAK
-&none  &kp F1      &kp F2          &kp F3      &kp F4    &kp F5              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F6           &kp F7        &kp F8           &kp F9          &kp F10  &none
-&none  &kp C_STOP  &kp C_PREVIOUS  &kp C_NEXT  &kp C_PP  &none      &none                    &mmv MOVE_DOWN                   &kp F11          &kp F12       &kp PRINTSCREEN  &kp SCROLLLOCK  &kp DEL  &kp ENTER
-                                   &none       &none     &kp SPACE                                                            &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp RCTRL
+&none  &none         &none           &none       &none           &none                   &trans          &kp PAUSE_BREAK  &kp F7           &kp F8  &kp F9  &kp F10  &none
+&none  &kp LEFT_WIN  &kp LEFT_ALT    &kp RCTRL   &kp LEFT_SHIFT  &none           &trans  &trans  &trans  &kp PRINTSCREEN  &kp F4           &kp F5  &kp F6  &kp F11  &none
+&none  &kp C_STOP    &kp C_PREVIOUS  &kp C_NEXT  &kp C_PP        &none  &none            &trans          &kp SCROLLLOCK   &kp F1           &kp F2  &kp F3  &kp F12  &kp ENTER
+                                     &none       &none           &none                                   &kp K_APP        &kp PRINTSCREEN  &none
             >;
 
             label = "FUN";
