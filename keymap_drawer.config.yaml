@@ -25,6 +25,7 @@ draw_config:
       font-size: 12px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
+      background-color: #1e1e2e; /* Example dark color */
     }
 
     /* Color accent for held keys */
