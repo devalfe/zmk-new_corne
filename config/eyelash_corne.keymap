@@ -66,7 +66,7 @@
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+            continue-list = <BSPC DEL DOT COMMA KP_PLUS PLUS KP_MINUS MINUS KP_MULTIPLY STAR KP_DIVIDE FSLH EQUAL>;
             ignore-numbers;
         };
 
