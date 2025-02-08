@@ -43,7 +43,7 @@ layers:
   - {t: ;, h: RIGHT WIN, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: SYMBOL, h: SYMBOL}
-  - {t: '&num_word', h: NUMBER}
+  - {t: '&num_word 1', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - {t: '$$mdi:apple-keyboard-shift$$', h: FUN}
   - {t: 'Gui+$$mdi:keyboard-space$$', h: BLTRGB}
