@@ -25,7 +25,7 @@ draw_config:
       font-size: 12px;
       font-weight: bold;
       text-rendering: optimizeLegibility;
-      background-color: #1e1e2e; /* Example dark color */
+      background-color: #0d1117; /* Githubs dark background */
     }
 
     /* Color accent for held keys */
