@@ -200,9 +200,9 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&to 0  &none         &none             &none                 &none                  &none                                &trans          &kp EQUAL         &kp AMPERSAND         &kp STAR               &kp CARET          &middledot  &none
-&none  &kp LEFT_WIN  &kp AT            &kp HASH              &kp DOLLAR             &kp PERCENT                  &trans  &trans  &trans  &kp PERCENT       &kp EXCLAMATION       &kp AT_SIGN            &kp HASH           &kp DOLLAR  &none
-&none  &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans            &trans          &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE   &kp RET
+&to 0  &none         &none             &kp EQUAL             &none                  &none                                &trans          &kp EQUAL         &kp AMPERSAND         &kp STAR               &kp CARET          &middledot  &none
+&none  &kp LEFT_WIN  &kp LEFT_ALT      &kp LCTRL             &kp LEFT_SHIFT         &kp PERCENT                  &trans  &trans  &trans  &kp PERCENT       &kp EXCLAMATION       &kp AT_SIGN            &kp HASH           &kp DOLLAR  &none
+&none  &none         &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans            &trans          &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp GRAVE   &kp RET
                                        &kp BACKSLASH         &kp MINUS              &kp UNDER                                            &kp UNDERSCORE    &kp MINUS             &kp BACKSLASH
             >;
 
