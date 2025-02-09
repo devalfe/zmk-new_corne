@@ -259,3 +259,19 @@
         };
     };
 };
+/ {
+    zmk,underglow {
+        compatible = "zmk,rgb_underglow";
+        
+        color-map = < 
+            0x000000  /* Layer 0 - Breathing effect (color unused here) */
+            0x993300  /* Layer 1 - Dark orange for number layer */
+            0x330066  /* Layer 2 - Dark purple for symbol layer */
+            0x0033CC  /* Layer 3 - Blue for nav layer */
+            0x660000  /* Layer 4 - Dark red for Bluetooth layer */
+            0x006600  /* Layer 5 - Dark green for function layer */
+        >;
+
+        effects = < 2 1 1 1 1 1 >;
+    };
+};
