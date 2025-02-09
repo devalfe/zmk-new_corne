@@ -259,3 +259,30 @@
         };
     };
 };
+
+&layer_state {
+    0 {
+        rgb_ug_color = <0x000000>;  // Breathing effect on default layer
+        rgb_ug_effect = <2>;
+    };
+    1 {
+        rgb_ug_color = <0x993300>;  // Dark orange for number layer
+        rgb_ug_effect = <1>;
+    };
+    2 {
+        rgb_ug_color = <0x330066>;  // Dark purple for symbol layer
+        rgb_ug_effect = <1>;
+    };
+    3 {
+        rgb_ug_color = <0x0033CC>;  // Blue for nav layer
+        rgb_ug_effect = <1>;
+    };
+    4 {
+        rgb_ug_color = <0x660000>;  // Dark red for Bluetooth layer
+        rgb_ug_effect = <1>;
+    };
+    5 {
+        rgb_ug_color = <0x006600>;  // Dark green for function layer
+        rgb_ug_effect = <1>;
+    };
+};
