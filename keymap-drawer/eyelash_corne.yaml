@@ -93,7 +93,7 @@ layers:
   - KP ENTER
   - {t: '=', s: +}
   - {t: ., s: '>', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
   - KP DIVIDE
   - KP DOT
   - KP NUMLOCK
