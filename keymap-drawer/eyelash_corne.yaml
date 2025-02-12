@@ -50,11 +50,11 @@ layers:
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: COLEDH, h: toggle}
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:backspace-reverse-outline$$
+  - Ctl+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP PLUS
   - {t: '7', s: '&'}
@@ -78,11 +78,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - {t: NUMBER, h: toggle}
+  - {t: SYMBOL, h: toggle}
+  - {t: NAV, h: toggle}
+  - {t: FUN, h: toggle}
+  - {t: MINECR, h: toggle}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
@@ -92,7 +92,7 @@ layers:
   - '%'
   - KP ENTER
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: COLEDH, h: toggle, type: held}
   - $$mdi:keyboard-space$$
   - KP DIVIDE
   - KP DOT
@@ -100,9 +100,9 @@ layers:
   SYMBOL:
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '{'
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '}'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
@@ -127,11 +127,11 @@ layers:
   - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - (
   - )
-  - {t: ']', s: '}'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -141,7 +141,7 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: \, s: '|', type: held}
-  - {t: '-', s: _}
+  - {t: COLEDH, h: toggle}
   - _
   - _
   - {t: '-', s: _}
@@ -190,7 +190,7 @@ layers:
   - END
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: COLEDH, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
@@ -239,13 +239,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - {t: COLEDH, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: COLEDH, h: toggle}
   - F10
   - F7
   - F8
@@ -288,7 +288,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - APP
-  - PRINTSCREEN
+  - {t: COLEDH, h: toggle}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - APP
@@ -336,19 +336,13 @@ layers:
   - KP 3
   - KP DOT
   - KP ENTER
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: COLEDH, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - KP 0
 combos:
-- p: [2, 3, 4]
-  k: {t: NUMBER, h: toggle}
-- p: [30, 31, 32]
-  k: {t: SYMBOL, h: toggle}
-- p: [15, 17, 16]
-  k: {t: NAV, h: toggle}
 - p: [23, 24]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [24, 25]
