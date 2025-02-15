@@ -160,10 +160,10 @@
         default_layer {
             display-name = "COLEDH";
             bindings = <
-&kp ESC                  &kp Q  &kp W  &kp F       &kp P           &kp B                                   &kp UP               &kp J                 &kp L            &kp U          &kp Y       &kp SQT              &kp GRAVE
-&kp TAB                  &kp A  &kp R  &kp S       &kp T           &kp G                         &kp LEFT  &tog 6    &kp RIGHT  &kp M                 &kp N            &kp E          &kp I       &kp O                &kp FSLH
-&sk_kp LEFT_SHIFT LCTRL  &kp Z  &kp X  &kp C       &kp D           &kp V        &kp LG(LA(K))              &kp DOWN             &kp K                 &kp H            &kp COMMA      &kp PERIOD  &hml RIGHT_WIN SEMI  &kp RET
-                                       &sl_mo 2 2  &smart_num 1 1  &lt 3 SPACE                                                  &sk_mo 5 RIGHT_SHIFT  &lt 4 LG(SPACE)  &kp RIGHT_ALT
+&kp ESC                  &kp Q  &kp W  &kp F       &kp P           &kp B                                   &kp UP               &kp J                 &kp L            &kp U         &kp Y       &kp SQT              &kp GRAVE
+&kp TAB                  &kp A  &kp R  &kp S       &kp T           &kp G                         &kp LEFT  &tog 6    &kp RIGHT  &kp M                 &kp N            &kp E         &kp I       &kp O                &kp FSLH
+&sk_kp LEFT_SHIFT LCTRL  &kp Z  &kp X  &kp C       &kp D           &kp V        &kp LG(LA(K))              &kp DOWN             &kp K                 &kp H            &kp COMMA     &kp PERIOD  &hml RIGHT_WIN SEMI  &kp RET
+                                       &sl_mo 2 2  &smart_num 1 1  &lt 3 SPACE                                                  &sk_mo 5 RIGHT_SHIFT  &lt 4 LG(SPACE)  &kp LEFT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -197,10 +197,10 @@
         layer_3 {
             display-name = "NAV";
             bindings = <
-&to 0      &kp F1          &kp F2          &mmv MOVE_UP    &kp F4           &kp F5                          &trans          &kp LC(Y)      &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
-&kp LC(A)  &kp F3          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4                &trans  &trans  &trans  &kp LG(LS(D))  &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
-&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5  &kp C_MUTE            &trans          &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp ENTER
-                                           &none           &to 0            &none                                           &mkp LCLK      &mkp RCLK  &mkp MCLK
+&to 0      &kp F1          &kp F2          &mmv MOVE_UP    &kp F4           &kp F5                           &trans          &kp LC(Y)      &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
+&kp LC(A)  &kp F3          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB4                 &trans  &trans  &trans  &kp LG(LS(D))  &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
+&trans     &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5   &kp C_MUTE            &trans          &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp ENTER
+                                           &kp LEFT_SHIFT  &to 0            &kp LCTRL                                        &mkp LCLK      &mkp RCLK  &mkp MCLK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
