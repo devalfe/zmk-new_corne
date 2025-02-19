@@ -604,12 +604,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="215" y="78" height="18" width="18.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
 <g class="combo combopos-4">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -811,12 +819,10 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap layer-activator">FUN</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(308, 153)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#MINECR">
-<text x="0" y="-4" class="key tap layer-activator">MINECR</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<g transform="translate(308, 153)" class="key none keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
 <g transform="translate(378, 153)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -912,12 +918,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1190,12 +1204,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1465,12 +1487,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1757,12 +1787,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2026,12 +2064,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -2322,12 +2368,20 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<path d="M490,28 l-275,0" class="combo"/>
-<path d="M490,28 l275,0" class="combo"/>
-<rect rx="6" ry="6" x="476" y="15" width="28" height="26" class="combo"/>
+<path d="M490,225 l-123,0" class="combo"/>
+<path d="M490,225 l123,0" class="combo"/>
+<rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
 <a href="#COLEDH">
-<text x="490" y="28" class="combo tap layer-activator">COLEDH</text>
-</a><text x="490" y="39" class="combo hold">toggle</text>
+<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+</a><text x="490" y="236" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-3">
+<path d="M196,32 l-37,1" class="combo"/>
+<path d="M196,32 l37,1" class="combo"/>
+<rect rx="6" ry="6" x="182" y="19" width="28" height="26" class="combo"/>
+<a href="#MINECR">
+<text x="196" y="32" class="combo tap layer-activator">MINECR</text>
+</a><text x="196" y="43" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
