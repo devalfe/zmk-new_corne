@@ -20,7 +20,7 @@ layers:
   - T
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: MINECR, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-right-bold$$
   - M
   - N
