@@ -3,41 +3,41 @@ layers:
   - $$mdi:keyboard-esc$$
   - Q
   - W
-  - F
-  - P
-  - B
-  - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
-  - Y
-  - {t: '''', s: '"'}
-  - {t: '`', s: '~'}
-  - $$mdi:keyboard-tab$$
-  - A
-  - R
-  - S
-  - T
-  - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-right-bold$$
-  - M
-  - N
   - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
   - I
   - O
-  - {t: /, s: '?'}
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - $$mdi:arrow-left-bold$$
+  - RETURN
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - .
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - Gui+Alt+K
   - $$mdi:arrow-down-bold$$
-  - K
-  - H
+  - N
+  - M
   - {t: ',', s: <}
   - .
   - {t: ;, h: RIGHT WIN, s: ':'}
