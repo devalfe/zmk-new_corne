@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -28,13 +28,13 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - RETURN
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -42,11 +42,11 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - {t: SYMBOL, h: SYMBOL}
+  - {t: LEFT WIN, h: SYMBOL}
   - {t: '&num_word 1', h: NUMBER}
-  - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: FUN}
-  - {t: 'Gui+$$mdi:keyboard-space$$', h: BLTRGB}
+  - {t: '$$mdi:keyboard-return$$', h: NAV}
+  - {t: '$$mdi:keyboard-space$$', h: FUN}
+  - {t: '$$mdi:keyboard-return$$', h: BLTRGB}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: COLEDH, h: toggle}
@@ -110,7 +110,7 @@ layers:
   - (
   - )
   - '&middledot'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - OUT USB
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
@@ -169,13 +169,13 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Gui+Sft+D
+  - Ctl+D
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - Ctl+X
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Sft+F
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
@@ -208,7 +208,7 @@ layers:
   - END
   - Ins
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -224,7 +224,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - RIGHT WIN
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB OFF
   - RGB ON
   - RGB SPI
@@ -241,9 +241,9 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: COLEDH, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
   - {t: COLEDH, h: toggle}
   - F10
@@ -295,7 +295,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MINECR:
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - E
   - W
   - F
@@ -306,7 +306,7 @@ layers:
   - KP 8
   - KP 9
   - '%'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: COLEDH, h: toggle}
   - L
   - A
@@ -320,8 +320,8 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - F1
   - F2
