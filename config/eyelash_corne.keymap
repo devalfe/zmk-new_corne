@@ -91,23 +91,6 @@
             flavor = "balanced";
             hold-trigger-key-positions = <28>;
         };
-
-        accent_tap: accent_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ACCENT_TAP";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&dead_acute>, <&kp>;
-        };
-
-        dead_acute: dead_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&kp ACUTE>;
-        };
     };
 
     rgb_encoder: rgb_encoder {
