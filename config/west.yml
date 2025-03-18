@@ -9,8 +9,8 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
       # to get the zmk-auto-layer for num-word feature
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -22,8 +22,8 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: main # set to same version as zmk
-    - name: mario-peripheral-animation   #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main
   self:
     path: config
