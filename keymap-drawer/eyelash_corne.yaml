@@ -20,7 +20,9 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-left-bold$$
+  - {t: MINECR, h: toggle}
+  - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
@@ -33,7 +35,8 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', h: <, s: <}
@@ -44,11 +47,8 @@ layers:
   - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
+  - {t: '$$mdi:keyboard-return$$', h: BLTRGB}
   - {t: '$$mdi:backspace-reverse-outline$$', h: MINECR}
-  - {t: MINECR, h: toggle}
   NUMBER:
   - {t: DEVALFE, h: toggle}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
@@ -243,7 +243,7 @@ layers:
   - {t: DEVALFE, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
   - {t: DEVALFE, h: toggle}
@@ -341,8 +341,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
-  - KP 0
+  - $$mdi:mouse-right-click-outline$$
+  - {t: KP 0, type: held}
 combos:
 - p: [23, 24]
   k: {t: '$$mdi:backspace$$', type: backspace}
