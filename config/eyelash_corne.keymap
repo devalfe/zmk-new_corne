@@ -246,10 +246,11 @@
         default_layer {
             display-name = "DEVALFE";
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E           &kp R           &kp T                               &kp UP                &kp Y        &kp U           &kp I                &kp O                    &kp P          &kp BACKSPACE
-&kp TAB         &kp A  &kp S  &kp D           &kp F           &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J           &kp K                &kp L                    &kp SEMICOLON  &kp APOS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C           &kp V           &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M           &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &kp SLASH      &kp RCTRL
-                              &lt 2 LEFT_WIN  &smart_num 1 1  &lt 3 ENTER                                               &lt 5 SPACE  &sk_mo 4 ENTER  &kp LEFT_ALT
+&as TILDE GRAVE  &kp Q            &kp W            &kp E                &kp R              &kp T           &kp UP_ARROW     &kp Y         &kp U               &kp I                 &kp O                    &kp P                &as PLUS EQUAL
+&kp CAPSLOCK     &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G           &kp DOWN_ARROW   &kp H         &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L         &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
+&kp LEFT_SHIFT   &kp Z            &kp X            &kp C                &kp V              &kp B           &kp LEFT_ARROW   &kp N         &kp M               &as LESS_THAN COMMA   &as GREATER_THAN PERIOD  &as QUESTION SLASH   &kp ENTER
+                                  &to 5            &ltq 1 BACKSPACE     &ltq 3 TAB         &ltq 2 SPACE    &kp RIGHT_ARROW  &ltq 2 SPACE  &ltq 3 ENTER        &ltq 6 DELETE
+                                                                                                           &to 6
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -327,6 +328,14 @@
 
             label = "MINECR";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+    };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Flash {
+            if-layers = <3 2>;
+            then-layer = <4>;
         };
     };
 };
