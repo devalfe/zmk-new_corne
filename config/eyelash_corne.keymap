@@ -224,52 +224,6 @@
 
             label = "MIDDLEDOT";
         };
-
-        // Vocales con acento
-
-        a_acento: a_acento {
-            label = "a_acento";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(E) &kp A>;
-        };
-
-        e_acento: e_acento {
-            label = "e_acento";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(E) &kp E>;
-        };
-
-        i_acento: i_acento {
-            label = "i_acento";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(E) &kp I>;
-        };
-
-        o_acento: o_acento {
-            label = "o_acento";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(E) &kp O>;
-        };
-
-        u_acento: u_acento {
-            label = "u_acento";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RA(E) &kp U>;
-        };
-
-        // Ñ
-
-        enye: enye {
-            label = "enye";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp SEMI>;  // En distribución US, SEMI produce ñ
-        };
     };
 
     keymap {
