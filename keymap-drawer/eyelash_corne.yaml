@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&a_acento'
   - {t: LEFT WIN, h: LEFT WIN}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -78,7 +78,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: A, h: '&dead_acute'}
   - {t: NUMBER, h: toggle}
   - {t: SYMBOL, h: toggle}
   - {t: NAV, h: toggle}
