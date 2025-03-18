@@ -141,6 +141,56 @@
             bindings = <&tog 6>;
             key-positions = <2 3 4>;
         };
+
+        cb-terminal {
+            bindings = <&kp RC(J)>;
+            key-positions = <29 14>;
+        };
+
+        cb-find {
+            bindings = <&kp LC(F)>;
+            key-positions = <30 15>;
+        };
+
+        cb-find-g {
+            bindings = <&kp LC(LS(F))>;
+            key-positions = <16 31>;
+        };
+
+        cb-replace {
+            bindings = <&kp LC(H)>;
+            key-positions = <17 32>;
+        };
+
+        cb-replace-g {
+            bindings = <&kp LC(LS(H))>;
+            key-positions = <33 18>;
+        };
+
+        cb-project {
+            bindings = <&kp LC(LS(E))>;
+            key-positions = <14 1>;
+        };
+
+        cb-tool-bars {
+            bindings = <&kp LC(LS(B))>;
+            key-positions = <15 2>;
+        };
+
+        cb-run {
+            bindings = <&kp LC(LS(U))>;
+            key-positions = <16 3>;
+        };
+
+        cb-files {
+            bindings = <&kp LC(E)>;
+            key-positions = <4 17>;
+        };
+
+        cb-goto {
+            bindings = <&kp LC(P)>;
+            key-positions = <5 18>;
+        };
     };
 
     macros {
@@ -226,10 +276,10 @@
 
         layer_5 {
             bindings = <
-&to 0  &kp F10  &kp F7  &kp F8     &kp F9  &kp PAUSE_BREAK                                &mmv MOVE_UP                     &none  &none            &none       &none          &none          &none
-&none  &kp F11  &kp F4  &kp F5     &kp F6  &kp PRINTSCREEN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &kp RIGHT_SHIFT  &kp RCTRL   &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none  &kp F12  &kp F1  &kp F2     &kp F3  &kp SCROLLLOCK   &kp C_MUTE                    &mmv MOVE_DOWN                   &none  &kp C_PP         &kp C_PREV  &kp C_NEXT     &none          &kp ENTER
-                        &kp K_APP  &to 0   &kp TAB                                                                         &none  &kp K_APP        &none
+&to 0  &kp F10  &kp F7  &kp F8     &kp F9  &kp PAUSE_BREAK                                &mmv MOVE_UP                     &hml GRAVE O  &none            &none       &none          &none          &none
+&none  &kp F11  &kp F4  &kp F5     &kp F6  &kp PRINTSCREEN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none         &kp RIGHT_SHIFT  &kp RCTRL   &kp RIGHT_ALT  &kp RIGHT_WIN  &none
+&none  &kp F12  &kp F1  &kp F2     &kp F3  &kp SCROLLLOCK   &kp C_MUTE                    &mmv MOVE_DOWN                   &none         &kp C_PP         &kp C_PREV  &kp C_NEXT     &none          &kp ENTER
+                        &kp K_APP  &to 0   &kp TAB                                                                         &none         &kp K_APP        &none
             >;
 
             label = "FUN";
