@@ -78,7 +78,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: A, h: '&dead_acute'}
+  - '&accent_tap 0 A'
   - {t: NUMBER, h: toggle}
   - {t: SYMBOL, h: toggle}
   - {t: NAV, h: toggle}
