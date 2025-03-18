@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  COLEDH:
+  DEVALFE:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: BLTRGB}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&a_acento'
   - {t: LEFT WIN, h: LEFT WIN}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -78,7 +78,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: A, h: '&dead_acute'}
   - {t: NUMBER, h: toggle}
   - {t: SYMBOL, h: toggle}
   - {t: NAV, h: toggle}
@@ -93,13 +93,13 @@ layers:
   - '%'
   - KP ENTER
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: COLEDH, h: toggle, type: held}
+  - {t: DEVALFE, h: toggle, type: held}
   - $$mdi:keyboard-space$$
   - KP DIVIDE
   - KP DOT
   - KP NUMLOCK
   SYMBOL:
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - '!'
   - '@'
   - '#'
@@ -142,13 +142,13 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: \, s: '|', type: held}
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - _
   - _
   - {t: '-', s: _}
   - {t: \, s: '|'}
   NAV:
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - F1
   - F2
   - F3
@@ -191,13 +191,13 @@ layers:
   - END
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - {t: '$$mdi:apple-keyboard-control$$', type: held}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   BLTRGB:
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - RGB HUD
   - RGB HUI
   - RGB BRI
@@ -240,13 +240,13 @@ layers:
   - BT CLR ALL
   - PgDn
   - $$mdi:backspace-reverse-outline$$
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - F10
   - F7
   - F8
@@ -289,7 +289,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - APP
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - APP
@@ -308,7 +308,7 @@ layers:
   - KP 9
   - '%'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - L
   - A
   - S
@@ -329,7 +329,7 @@ layers:
   - F3
   - F4
   - {t: '3', s: '#'}
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - KP 1
@@ -337,7 +337,7 @@ layers:
   - KP 3
   - KP DOT
   - KP ENTER
-  - {t: COLEDH, h: toggle}
+  - {t: DEVALFE, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
@@ -350,12 +350,12 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [31, 32]
   k: $$mdi:apple-keyboard-caps$$
-  l: [COLEDH]
+  l: [DEVALFE]
 - p: [16, 17]
   k: $$mdi:alpha-w-box$$
-  l: [COLEDH]
+  l: [DEVALFE]
 - p: [44, 45]
-  k: {t: COLEDH, h: toggle}
+  k: {t: DEVALFE, h: toggle}
 - p: [2, 3, 4]
   k: {t: MINECR, h: toggle}
 - p: [29, 14]

@@ -329,8 +329,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-COLEDH">
-<text x="0" y="28" class="label" id="COLEDH">COLEDH:</text>
+<g transform="translate(40, 0)" class="layer-DEVALFE">
+<text x="0" y="28" class="label" id="DEVALFE">DEVALFE:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -609,8 +609,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
@@ -679,8 +679,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key backspace keypos-1">
@@ -750,10 +750,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="-9" y="-13" height="18" width="18.0" class="key backspace tap glyph mdi:backspace"/>
 </g>
-<g transform="translate(28, 105)" class="key none keypos-13">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(28, 105)" class="key keypos-13">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;a_acento</tspan></text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -841,10 +841,11 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(28, 161)" class="key none keypos-28">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-13" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(28, 161)" class="key keypos-28">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">A</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">&amp;dead_acu…</tspan></text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -937,8 +938,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key held keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key held tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key held tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
@@ -979,8 +980,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1049,8 +1050,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
@@ -1287,8 +1288,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
@@ -1325,8 +1326,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1395,8 +1396,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
@@ -1622,8 +1623,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key held keypos-44">
@@ -1658,8 +1659,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1728,8 +1729,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
@@ -1984,8 +1985,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key backspace keypos-44">
@@ -2020,8 +2021,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2090,8 +2091,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
@@ -2316,8 +2317,8 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
@@ -2352,8 +2353,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2497,8 +2498,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-14">
@@ -2614,8 +2615,8 @@ rect.held, rect.combo.held {
 <g transform="translate(378, 153)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(546, 153)" class="key keypos-35">
@@ -2667,8 +2668,8 @@ rect.held, rect.combo.held {
 <g transform="translate(224, 203)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#COLEDH">
-<text x="0" y="-4" class="key tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
@@ -2710,8 +2711,8 @@ rect.held, rect.combo.held {
 <path d="M490,225 l-123,0" class="combo"/>
 <path d="M490,225 l123,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="212" width="28" height="26" class="combo"/>
-<a href="#COLEDH">
-<text x="490" y="225" class="combo tap layer-activator">COLEDH</text>
+<a href="#DEVALFE">
+<text x="490" y="225" class="combo tap layer-activator"><tspan style="font-size: 86%">DEVALFE</tspan></text>
 </a><text x="490" y="236" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
