@@ -228,10 +228,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&to 0            &kp LC(BACKSPACE)         &kp BACKSPACE             &kp ESCAPE                 &kp DEL                       &kp LC(DELETE)                                     &mmv MOVE_UP                     &kp KP_PLUS      &kp N7      &kp N8          &kp N9  &kp EQUAL    &kp BACKSPACE
-&a_acento        &sk_kp LEFT_WIN LEFT_WIN  &sk_kp LEFT_ALT LEFT_ALT  &sk_kp LCTRL LEFT_CONTROL  &sk_kp LEFT_SHIFT LEFT_SHIFT  &kp C_AL_CALCULATOR                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp KP_MINUS     &kp N4      &kp N5          &kp N6  &kp N0       &none
-&accent_tap 0 A  &tog 1                    &tog 2                    &tog 3                     &tog 5                        &tog 6               &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_MULTIPLY  &kp N1      &kp N2          &kp N3  &kp PERCENT  &kp KP_ENTER
-                                                                     &none                      &to 0                         &kp SPACE                                                                           &kp KP_DIVIDE    &kp KP_DOT  &kp KP_NUMLOCK
+&to 0  &kp LC(BACKSPACE)         &kp BACKSPACE             &kp ESCAPE                 &kp DEL                       &kp LC(DELETE)                                     &mmv MOVE_UP                     &kp KP_PLUS      &kp N7      &kp N8          &kp N9  &kp EQUAL    &kp BACKSPACE
+&none  &sk_kp LEFT_WIN LEFT_WIN  &sk_kp LEFT_ALT LEFT_ALT  &sk_kp LCTRL LEFT_CONTROL  &sk_kp LEFT_SHIFT LEFT_SHIFT  &kp C_AL_CALCULATOR                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp KP_MINUS     &kp N4      &kp N5          &kp N6  &kp N0       &none
+&none  &tog 1                    &tog 2                    &tog 3                     &tog 5                        &tog 6               &kp C_MUTE                    &mmv MOVE_DOWN                   &kp KP_MULTIPLY  &kp N1      &kp N2          &kp N3  &kp PERCENT  &kp KP_ENTER
+                                                           &none                      &to 0                         &kp SPACE                                                                           &kp KP_DIVIDE    &kp KP_DOT  &kp KP_NUMLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
