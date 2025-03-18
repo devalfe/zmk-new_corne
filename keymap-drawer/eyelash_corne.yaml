@@ -39,8 +39,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - N
   - M
-  - {t: ',', s: <}
-  - .
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - {t: LEFT WIN, h: SYMBOL}
