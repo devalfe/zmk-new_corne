@@ -161,7 +161,7 @@ layers:
   - Ctl+V
   - Ctl+Z
   - F11
-  - Ctl+A
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -176,7 +176,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Ctl+X
   - F12
-  - Ctl+Sft+F
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
