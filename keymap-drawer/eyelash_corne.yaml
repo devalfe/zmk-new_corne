@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   COLEDH:
   - $$mdi:keyboard-esc$$
@@ -252,7 +253,7 @@ layers:
   - F9
   - PAUSE BREAK
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: O, h: '`'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -357,3 +358,23 @@ combos:
   k: {t: COLEDH, h: toggle}
 - p: [2, 3, 4]
   k: {t: MINECR, h: toggle}
+- p: [29, 14]
+  k: Ctl+J
+- p: [30, 15]
+  k: Ctl+F
+- p: [16, 31]
+  k: Ctl+Sft+F
+- p: [17, 32]
+  k: Ctl+H
+- p: [33, 18]
+  k: Ctl+Sft+H
+- p: [14, 1]
+  k: Ctl+Sft+E
+- p: [15, 2]
+  k: Ctl+Sft+B
+- p: [16, 3]
+  k: Ctl+Sft+U
+- p: [4, 17]
+  k: Ctl+E
+- p: [5, 18]
+  k: Ctl+P
