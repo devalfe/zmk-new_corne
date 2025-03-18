@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   DEVALFE:
-  - $$mdi:keyboard-esc$$
+  - {t: '`', h: '~', s: '~'}
   - Q
   - W
   - E
@@ -13,42 +13,42 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - A
-  - S
-  - D
-  - F
+  - {t: '=', h: +, s: +}
+  - $$mdi:apple-keyboard-caps$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - .
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: ':', s: ':'}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-left-bold$$
   - N
   - M
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
-  - {t: LEFT WIN, h: SYMBOL}
-  - {t: '&num_word 1', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: NAV}
-  - {t: '$$mdi:keyboard-space$$', h: FUN}
-  - {t: '$$mdi:keyboard-return$$', h: BLTRGB}
-  - $$mdi:apple-keyboard-option$$
+  - {t: /, h: '?', s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: FUN, h: toggle}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: MINECR}
+  - {t: MINECR, h: toggle}
   NUMBER:
   - {t: DEVALFE, h: toggle}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
@@ -93,7 +93,7 @@ layers:
   - '%'
   - KP ENTER
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: DEVALFE, h: toggle, type: held}
+  - {t: DEVALFE, h: toggle}
   - $$mdi:keyboard-space$$
   - KP DIVIDE
   - KP DOT
@@ -141,7 +141,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: \, s: '|', type: held}
+  - {t: \, s: '|'}
   - {t: DEVALFE, h: toggle}
   - _
   - _
@@ -192,7 +192,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - {t: DEVALFE, h: toggle}
-  - {t: '$$mdi:apple-keyboard-control$$', type: held}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -243,7 +243,7 @@ layers:
   - {t: DEVALFE, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
   - {t: DEVALFE, h: toggle}
@@ -291,7 +291,7 @@ layers:
   - APP
   - {t: DEVALFE, h: toggle}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - APP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MINECR:
@@ -341,7 +341,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - KP 0
 combos:
 - p: [23, 24]
