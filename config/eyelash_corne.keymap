@@ -311,10 +311,10 @@
 
         layer_5 {
             bindings = <
-&to 0  &kp F10  &kp F7  &kp F8          &kp F9  &none                                           &mmv MOVE_UP                     &kp C_PREVIOUS    &kp LG(A)        &kp LG(S)          &kp LG(D)      &kp LG(F)      &none
-&none  &kp F11  &kp F4  &kp F5          &kp F6  &none                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_NEXT        &kp RIGHT_SHIFT  &kp RCTRL          &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none  &kp F12  &kp F1  &kp F2          &kp F3  &none             &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PLAY_PAUSE  &kp LG(Z)        &kp LG(X)          &kp LG(C)      &kp LG(V)      &trans
-                        &kp LEFT_SHIFT  &to 0   &kp LEFT_CONTROL                                                                 &none             &kp K_APP        &kp RIGHT_CONTROL
+&to 0  &kp F10  &kp F7  &kp F8          &kp F9  &none                                &mmv MOVE_UP                     &kp C_PREVIOUS    &kp LG(A)        &kp LG(S)          &kp LG(D)      &kp LG(F)      &none
+&none  &kp F11  &kp F4  &kp F5          &kp F6  &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_NEXT        &kp RIGHT_SHIFT  &kp RCTRL          &kp RIGHT_ALT  &kp RIGHT_WIN  &none
+&none  &kp F12  &kp F1  &kp F2          &kp F3  &none  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PLAY_PAUSE  &kp LG(Z)        &kp LG(X)          &kp LG(C)      &kp LG(V)      &trans
+                        &kp LEFT_SHIFT  &to 0   &none                                                                 &none             &kp K_APP        &kp RIGHT_CONTROL
             >;
 
             label = "FUN";
@@ -338,7 +338,7 @@
         compatible = "zmk,conditional-layers";
 
         Minecr {
-            if-layers = <1>;
+            if-layers = <1 2>;
             then-layer = <6>;
         };
     };
