@@ -288,7 +288,7 @@
             display-name = "NAV";
             bindings = <
 &to 0  &kp F1          &kp F2        &kp F3          &kp F4           &kp F5                                   &mmv MOVE_UP                     &kp LC(Y)   &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
-&none  &none           &mkp LCLK     &mkp MCLK       &mkp RCLK        &mkp MB4                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LC(D)   &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
+&none  &none           &none         &none           &none            &mkp MB4                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LC(D)   &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
 &none  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
                                      &kp LEFT_SHIFT  &to 0            &kp LCTRL                                                                 &mkp LCLK   &mkp RCLK  &mkp MCLK
             >;
@@ -311,10 +311,10 @@
 
         layer_5 {
             bindings = <
-&to 0  &kp F10  &kp F7  &kp F8     &kp F9  &kp PAUSE_BREAK                                &mmv MOVE_UP                     &hml GRAVE O  &none            &none       &none          &none          &none
-&none  &kp F11  &kp F4  &kp F5     &kp F6  &kp PRINTSCREEN                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none         &kp RIGHT_SHIFT  &kp RCTRL   &kp RIGHT_ALT  &kp RIGHT_WIN  &none
-&none  &kp F12  &kp F1  &kp F2     &kp F3  &kp SCROLLLOCK   &kp C_MUTE                    &mmv MOVE_DOWN                   &none         &kp C_PP         &kp C_PREV  &kp C_NEXT     &none          &kp ENTER
-                        &kp K_APP  &to 0   &kp TAB                                                                         &none         &kp K_APP        &none
+&to 0  &kp F10  &kp F7  &kp F8          &kp F9  &none                                           &mmv MOVE_UP                     &kp C_PREVIOUS    &kp LG(A)        &kp LG(S)          &kp LG(D)      &kp LG(F)      &none
+&none  &kp F11  &kp F4  &kp F5          &kp F6  &none                           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp C_NEXT        &kp RIGHT_SHIFT  &kp RCTRL          &kp RIGHT_ALT  &kp RIGHT_WIN  &none
+&none  &kp F12  &kp F1  &kp F2          &kp F3  &none             &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_PLAY_PAUSE  &kp LG(Z)        &kp LG(X)          &kp LG(C)      &kp LG(V)      &trans
+                        &kp LEFT_SHIFT  &to 0   &kp LEFT_CONTROL                                                                 &none             &kp K_APP        &kp RIGHT_CONTROL
             >;
 
             label = "FUN";
@@ -338,7 +338,7 @@
         compatible = "zmk,conditional-layers";
 
         Minecr {
-            if-layers = <3 2>;
+            if-layers = <1>;
             then-layer = <6>;
         };
     };
