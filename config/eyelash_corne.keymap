@@ -275,10 +275,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&to 0         &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp DOLLAR      &kp PERCENT                           &mmv MOVE_UP                     &kp AMPERSAND                &kp SLASH                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &trans
-&out OUT_USB  &kp LEFT_WIN     &kp LEFT_ALT  &kp LCTRL      &kp LEFT_SHIFT  &none                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &as PLUS EQUAL               &as UNDER MINUS                &as PIPE BACKSLASH    &as TILDE GRAVE        &trans      &trans
-&out OUT_BLE  &none            &none         &kp CARET      &kp ASTRK       &none        &none                    &mmv MOVE_DOWN                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &trans                &trans                 &trans      &trans
-                                             &kp BACKSLASH  &to 0           &kp UNDER                                                              &kp UNDERSCORE               &kp MINUS                      &kp BACKSLASH
+&to 0  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp DOLLAR      &kp PERCENT                           &mmv MOVE_UP                     &kp AMPERSAND                &kp SLASH                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &trans
+&none  &kp LEFT_WIN     &kp LEFT_ALT  &kp LCTRL      &kp LEFT_SHIFT  &none                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &as PLUS EQUAL               &as UNDER MINUS                &as PIPE BACKSLASH    &as TILDE GRAVE        &trans      &trans
+&none  &none            &none         &kp CARET      &kp ASTRK       &none        &none                    &mmv MOVE_DOWN                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &trans                &trans                 &trans      &trans
+                                      &kp BACKSLASH  &to 0           &kp UNDER                                                              &kp UNDERSCORE               &kp MINUS                      &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -289,7 +289,7 @@
             bindings = <
 &to 0  &kp F1          &kp F2        &kp F3          &kp F4           &kp F5                                   &mmv MOVE_UP                     &kp LC(Y)   &kp LC(C)  &kp UP         &kp LC(V)    &kp LC(Z)  &kp F11
 &none  &none           &mkp LCLK     &mkp MCLK       &mkp RCLK        &mkp MB4                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LC(D)   &kp LEFT   &kp DOWN       &kp RIGHT    &kp LC(X)  &kp F12
-&none  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp ENTER
+&none  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &mkp MB5   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
                                      &kp LEFT_SHIFT  &to 0            &kp LCTRL                                                                 &mkp LCLK   &mkp RCLK  &mkp MCLK
             >;
 
@@ -299,10 +299,10 @@
 
         layer_4 {
             bindings = <
-&to 0       &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                &mmv MOVE_UP                     &kp PSCRN        &kp HOME         &kp END    &kp INSERT         &kp DELETE      &none
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAUSE_BREAK  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT      &kp RIGHT_WIN   &kp PG_UP
-&none       &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &kp K_MUTE                    &mmv MOVE_DOWN                   &bootloader      &sys_reset       &soft_off  &ext_power EP_OFF  &bt BT_CLR_ALL  &kp PAGE_DOWN
-                                              &kp DEL          &to 0            &kp BSPC                                                                        &none            &none            &none
+&to 0           &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                &mmv MOVE_UP                     &none  &none              &none         &none  &none  &none
+&bt BT_CLR      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none  &out OUT_USB       &out OUT_BLE  &none  &none  &none
+&bt BT_CLR_ALL  &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &kp K_MUTE                    &mmv MOVE_DOWN                   &none  &ext_power EP_TOG  &bootloader   &none  &none  &trans
+                                                  &none            &to 0            &none                                                                           &none  &none              &none
             >;
 
             label = "BLTRGB";
