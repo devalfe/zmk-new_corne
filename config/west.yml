@@ -9,6 +9,8 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
       # to get the zmk-auto-layer for num-word feature
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -20,5 +22,8 @@ manifest:
     - name: zmk-auto-layer
       remote: urob
       revision: main # set to same version as zmk
+    - name: hammerbeam-slideshow
+      remote: gpeye
+      revision: main
   self:
     path: config
