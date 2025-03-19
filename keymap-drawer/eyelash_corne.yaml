@@ -192,7 +192,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: DEVALFE, h: toggle}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -336,7 +336,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - KP ENTER
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: DEVALFE, h: toggle, type: held alternate}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
