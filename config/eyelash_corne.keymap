@@ -62,7 +62,6 @@
             require-prior-idle-ms = <100>;
             hold-trigger-key-positions = <13 14 15 16 17 18>;
             hold-trigger-on-release;
-            quick-release;
         };
 
         hmr: hmr {
@@ -77,7 +76,6 @@
             require-prior-idle-ms = <100>;
             hold-trigger-key-positions = <22 23 24 25 26>;
             hold-trigger-on-release;
-            quick-release;
         };
 
         sk_mo: sk_mo {
