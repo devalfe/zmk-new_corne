@@ -15,7 +15,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: LEFT WIN}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: LEFT WIN, h: SYMBOL}
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -133,7 +133,7 @@ layers:
   - ^
   - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '[', h: '{', s: '{'}
   - {t: ']', h: '}', s: '}'}
@@ -141,7 +141,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: DEVALFE, h: toggle}
   - _
   - _
@@ -329,7 +329,7 @@ layers:
   - F3
   - F4
   - {t: '3', s: '#'}
-  - {t: DEVALFE, h: toggle}
+  - {t: DEVALFE, h: toggle, type: held alternate}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - KP 1
