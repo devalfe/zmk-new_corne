@@ -128,11 +128,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
+  - '~'
   - ^
   - '*'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '[', h: '{', s: '{'}
