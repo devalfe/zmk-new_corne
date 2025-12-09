@@ -277,7 +277,7 @@
             bindings = <
 &to 0  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR      &kp PERCENT                           &mmv MOVE_UP                     &kp AMPERSAND                &kp SLASH                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &middledot  &trans
 &none  &kp LEFT_WIN     &kp LEFT_ALT  &kp LCTRL       &kp LEFT_SHIFT  &none                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &as PLUS EQUAL               &as UNDER MINUS                &as PIPE BACKSLASH    &as TILDE GRAVE        &trans      &trans
-&none  &none            &none         &kp CARET       &kp ASTRK       &none        &none                    &mmv MOVE_DOWN                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &trans                &trans                 &trans      &trans
+&none  &kp PIPE         &kp TILDE     &kp CARET       &kp ASTRK       &kp GRAVE    &none                    &mmv MOVE_DOWN                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &trans                &trans                 &trans      &trans
                                       &kp LEFT_SHIFT  &to 0           &kp UNDER                                                              &kp UNDERSCORE               &kp MINUS                      &kp BACKSLASH
             >;
 
